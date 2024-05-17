@@ -5,9 +5,9 @@ state={
 		74 170 203 267 305 315 333 415 440 520 536 559 572 617 627 773 799 844 1053 1082 1129 1256 1261 1268 1276 1279 1286 
 	}
 	history={
-		owner = BHA
+		owner = DAT
 		victory_points = { 5 50 }
-		add_core_of = BHA
+		add_core_of = DAT
 	}
 	buildings_max_level_factor=1.000
         manpower=10000
