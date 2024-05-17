@@ -69,7 +69,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rmadurapperuma Rajapaska"
+	name = "Karam Kusari"
 	desc = ""
 	picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
 	ideology = despotism
