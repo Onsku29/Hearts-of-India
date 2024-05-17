@@ -4,6 +4,11 @@ state={
 	provinces={
 		85 101 106 235 246 288 344 376 462 568 652 695 707 778 788 900 952 1085 1164 1213 1219 
 	}
+	history={
+		owner = BIS
+		victory_points = { 5 50 }
+		add_core_of = BIS
+	}
 	buildings_max_level_factor=1.000
         manpower=10000
         state_category = large_town

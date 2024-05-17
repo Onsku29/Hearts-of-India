@@ -18,3 +18,7 @@ PLE = {
 	color = rgb { 205 148 215 }
 	color_ui = rgb { 205 148 215 }
 }
+BIS = {
+	color = rgb { 204 73 64 }
+	color_ui = rgb { 204 73 64 }
+}
