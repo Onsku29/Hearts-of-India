@@ -1,0 +1,1 @@
+Please move Hearts of India.mod to your root mods folder.
