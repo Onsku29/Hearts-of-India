@@ -1,0 +1,32 @@
+music = {
+	name = "aao_bachho_tumhe_dikhaye"
+	file = "aao_bachho_tumhe_dikhaye.ogg"
+}
+music = {
+	name = "aye_watan"
+	file = "aye_watan.ogg"
+}
+music = {
+	name = "door_hatho_ae_duniya_walo"
+	file = "door_hatho_ae_duniya_walo.ogg"
+}
+music = {
+	name = "jana_gana_mana"
+	file = "jana_gana_mana.ogg"
+}
+music = {
+	name = "qadam_qadam_badhaaye_ja"
+	file = "qadam_qadam_badhaaye_ja.ogg"
+}
+music = {
+	name = "qadam_qadam_badhaaye_ja_instrumental"
+	file = "qadam_qadam_badhaaye_ja_instrumental.ogg"
+}
+music = {
+	name = "sare_jahan_se_achha"
+	file = "sare_jahan_se_achha.ogg"
+}
+music = {
+	name = "traditional_background"
+	file = "traditional_background.ogg"
+}

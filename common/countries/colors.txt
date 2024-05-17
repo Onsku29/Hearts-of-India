@@ -1,0 +1,4 @@
+DAT = {
+	color = rgb { 255 106 0 }
+	color_ui = rgb { 255 106 0 }
+}

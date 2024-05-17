@@ -1,0 +1,15 @@
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		31 68 162 247 351 370 377 494 496 530 532 540 576 600 603 645 703 828 951 1012 1019 1035 1064 1074 1105 1107 1115 1273 1281 1283 1288 1302 1331 
+	}
+	history={
+		owner = DAT
+		victory_points = { 5 50 }
+		add_core_of = DAT
+	}
+	buildings_max_level_factor=1.000
+        manpower=10000
+        state_category = large_town
+}

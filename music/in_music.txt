@@ -1,0 +1,73 @@
+music_station = "fm_india"
+music = {
+	song = "aao_bachho_tumhe_dikhaye"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "aye_watan"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "door_hatho_ae_duniya_walo"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "jana_gana_mana"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "qadam_qadam_badhaaye_ja"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "sare_jahan_se_achha"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "traditional_background"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "qadam_qadam_badhaaye_ja_instrumental"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=1
+	name="STATE_1"
+	manpower = 100000
+	
+	state_category = large_town
+
+	provinces={
+		5 239 369 601 704 777 997 1118 1141 1214
+	}
+
+	local_supplies=0.0 
+}
