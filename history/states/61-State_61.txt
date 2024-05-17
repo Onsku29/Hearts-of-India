@@ -4,6 +4,11 @@ state={
 	provinces={
 		285 442 741 863 970 979 1089 1234 
 	}
+	history={
+		owner = BHA
+		victory_points = { 5 50 }
+		add_core_of = BHA
+	}
 	buildings_max_level_factor=1.000
         manpower=10000
         state_category = large_town

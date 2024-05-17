@@ -7,6 +7,10 @@ MAH = {
 	color_ui = rgb { 240, 34, 69 }
 }
 CHG = {
-	color = rgb { 41 111 54 }
-	color_ui = rgb { 41 111 54 }
+	color = rgb { 74 176 104 }
+	color_ui = rgb { 74 176 104 }
+}
+BHA = {
+	color = rgb { 77 168 255 }
+	color_ui = rgb { 77 168 255 }
 }
