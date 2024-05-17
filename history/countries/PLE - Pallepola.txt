@@ -1,4 +1,4 @@
-capital = 10
+capital = 45
 
 # Starting tech
 set_technology = {
@@ -55,24 +55,24 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 80
+	democratic = 10
 	fascism = 5
 	communism = 5
-	neutrality = 10
+	neutrality = 80
 }
 
 create_country_leader = {
-	name = "Borakan Kharal"
+	name = "Rmadurapperuma Rajapaska"
 	desc = ""
 	picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
 	}

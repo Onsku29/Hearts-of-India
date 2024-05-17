@@ -14,3 +14,7 @@ BHA = {
 	color = rgb { 77 168 255 }
 	color_ui = rgb { 77 168 255 }
 }
+PLE = {
+	color = rgb { 205 148 215 }
+	color_ui = rgb { 205 148 215 }
+}
