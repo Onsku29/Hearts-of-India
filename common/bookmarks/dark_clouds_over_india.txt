@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "Dark clouds over India"
+		desc = "DARK_CLOUDS_DESC"
+		date = 2024.1.1.12
+		picture = "GFX_select_date_2024"
+		default_country = "DAT"
+		default = yes
+		
+		"DAT"={
+			history = "DAT_HISTORY"
+			ideology = fascism
+			available = {  }
+		}
+
+		"MAH"={
+			history = "MAH_HISTORY"
+			ideology = fascism
+			available = {  }
+		}
+
+		"CHG"={
+			history = "CHG_HISTORY"
+			ideology = fascism
+			available = {  }
+		}
+		
+		"BHA"={
+			history = "BHA_HISTORY"
+			ideology = democratic
+			available = {  }
+		}
+		
+		"BIS"={
+			history = "BIS_HISTORY"
+			ideology = communism
+			available = {  }
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
