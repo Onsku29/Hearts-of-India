@@ -4,6 +4,11 @@ state={
 	provinces={
 		38 73 108 154 213 225 266 273 336 365 474 480 507 584 595 669 736 755 801 839 879 966 1046 1049 1072 1120 1187 1313 1317 1320 1322 1326 1333 
 	}
+	history={
+		owner = CHG
+		victory_points = { 5 50 }
+		add_core_of = CHG
+	}
 	buildings_max_level_factor=1.000
         manpower=10000
         state_category = large_town
