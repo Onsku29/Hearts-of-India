@@ -69,7 +69,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rmadurapperuma Rajapaska"
+	name = "Kabalikrut Pattar"
 	desc = ""
 	picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
 	ideology = despotism

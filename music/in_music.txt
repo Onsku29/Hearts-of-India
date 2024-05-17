@@ -38,9 +38,9 @@ music = {
 music = {
 	song = "qadam_qadam_badhaaye_ja"
 	chance = {
+		factor = 1
 		modifier = {
-			factor = 1
-			has_war = yes
+			factor = 100;
 		}
 	}
 }
@@ -56,18 +56,18 @@ music = {
 music = {
 	song = "traditional_background"
 	chance = {
+		factor = 1
 		modifier = {
-			factor = 1
-			has_war = no
+			factor = 100;
 		}
 	}
 }
 music = {
 	song = "qadam_qadam_badhaaye_ja_instrumental"
 	chance = {
+		factor = 1
 		modifier = {
-			factor = 1
-			has_war = yes
+			factor = 100;
 		}
 	}
 }
