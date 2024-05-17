@@ -4,6 +4,11 @@ state={
 	provinces={
 		87 102 149 156 179 228 240 258 302 379 422 432 444 457 493 510 556 590 594 622 696 698 719 724 782 789 819 833 872 876 888 898 912 967 981 985 994 1004 1040 1041 1094 1121 1181 1182 1287 1297 1316 1323 1325 1339 1347 
 	}
+	history={
+		owner = MAH
+		victory_points = { 5 50 }
+		add_core_of = MAH
+	}
 	buildings_max_level_factor=1.000
         manpower=10000
         state_category = large_town
