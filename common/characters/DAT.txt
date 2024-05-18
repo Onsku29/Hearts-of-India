@@ -1,0 +1,34 @@
+characters = {
+    DAT_abhescock_chopra = {
+        name = "Abhescock Chopra"
+
+        portraits = {
+            army = {
+                large = gfx//leaders//DAT//portrait_DAT_abhescock_chopra.dds
+                small = gfx//leaders//DAT//portrait_DAT_abhescock_chopra_small.dds
+            }
+        }
+
+        field_marshal = {
+		traits = {media_personality, brilliant_strategist}
+		skill = 6
+		attack_skill = 5
+		defense_skill = 7
+		planning_skill = 6
+		logistics_skill = 5
+	    }
+
+        advisor = {
+            slot = army_chief
+            allowed = {
+                original_tag = DAT
+            }
+            traits = {
+                army_chief_defensive_3
+            }
+            available = {  }
+            cost = 200
+        }
+    }
+}
+
