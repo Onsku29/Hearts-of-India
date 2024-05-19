@@ -5,6 +5,6 @@ state={
 		236 314 383 477 631 965 978 1140 1242 1249 
 	}
 	buildings_max_level_factor=1.000
-        manpower=10000
-        state_category = large_town
+        manpower=20000000
+        state_category = megalopolis
 }

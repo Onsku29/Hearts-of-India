@@ -5,6 +5,6 @@ state={
 		65 215 335 374 412 610 646 678 749 834 943 1201 1207 
 	}
 	buildings_max_level_factor=1.000
-        manpower=10000
-        state_category = large_town
+        manpower=500000
+        state_category = town
 }
