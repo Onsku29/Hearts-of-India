@@ -6,7 +6,13 @@ state={
 	}
 	history={
 		owner = DAT
-		victory_points = { 5 50 }
+		victory_points = { 1131 55 }
+		victory_points = { 984 30 }
+		victory_points = { 386 25 }
+		victory_points = { 497 25 }
+		victory_points = { 613 20 }
+		victory_points = { 711 15 }
+		victory_points = { 322 20 }
 		add_core_of = DAT
 	}
 	buildings_max_level_factor=1.000
