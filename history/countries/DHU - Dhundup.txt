@@ -24,7 +24,7 @@ capital = 10
 	create_country_leader = {
 		name = "Khetsun Dhundup"
 		desc = ""
-		picture = "gfx//leaders//BHA//portrait_BHA_borakan_kharal.dds"
+		picture = "gfx//leaders//DHU//portrait_DHU_khetsun_dhundup.dds"
 		ideology = stalinism
 		traits = {
 			#
