@@ -4,6 +4,11 @@ state={
 	provinces={
 		55 212 327 361 714 805 
 	}
+	history={
+		owner = DHU
+		victory_points = { 5 50 }
+		add_core_of = DHU
+	}
 	buildings_max_level_factor=1.000
         manpower=50000
         state_category = rural

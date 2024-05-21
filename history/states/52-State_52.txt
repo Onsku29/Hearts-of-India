@@ -4,6 +4,11 @@ state={
 	provinces={
 		59 76 92 308 316 319 460 508 543 1111 1205 
 	}
+	history={
+		owner = DHU
+		victory_points = { 5 50 }
+		add_core_of = DHU
+	}
 	buildings_max_level_factor=1.000
         manpower=200000
         state_category = town
