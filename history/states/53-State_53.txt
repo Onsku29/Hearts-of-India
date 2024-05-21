@@ -3,7 +3,8 @@ state={
 	name="STATE_53"
 	provinces={
 		34 42 44 119 133 136 186 206 226 306 325 399 401 484 498 614 642 665 684 694 738 786 830 831 841 857 911 944 963 1033 1069 1203 1209 1215 
-	}history={
+	}
+	history={
 		owner = DHU
 		victory_points = { 5 50 }
 		add_core_of = DHU
