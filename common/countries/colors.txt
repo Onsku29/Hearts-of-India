@@ -30,3 +30,7 @@ BON = {
 	color = rgb { 79 29 119 }
 	color_ui = rgb { 79 29 119 }
 }
+DHU = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}

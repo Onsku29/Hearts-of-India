@@ -1,0 +1,33 @@
+capital = 10
+
+1939.1.1 = {
+	set_technology = {
+		infantry_weapons = 1
+	}
+	
+	set_convoys = 20
+
+	set_politics = {
+		ruling_party = communism
+		last_election = "2020.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 100
+		neutrality = 0
+	}
+
+	create_country_leader = {
+		name = "Khetsun Dhundup"
+		desc = ""
+		picture = "gfx//leaders//BHA//portrait_BHA_borakan_kharal.dds"
+		ideology = stalinism
+		traits = {
+			#
+		}
+	}
+}
