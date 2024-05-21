@@ -3,4 +3,9 @@ spriteTypes = {
 		name = "GFX_select_date_2024"
 		texturefile = "gfx/interface/select_date_2024.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_9.dds"
+	}
 }
