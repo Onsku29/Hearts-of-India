@@ -1,4 +1,4 @@
-capital = 10
+capital = 53
 
 1939.1.1 = {
 	set_technology = {
