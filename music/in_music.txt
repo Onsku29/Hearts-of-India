@@ -1,5 +1,13 @@
 music_station = "fm_india"
 music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+music = {
 	song = "aao_bachho_tumhe_dikhaye"
 	chance = {
 		factor = 1

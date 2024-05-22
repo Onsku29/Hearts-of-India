@@ -1,4 +1,8 @@
 music = {
+	name = "maintheme"
+	file = "traditional_background.ogg"
+}
+music = {
 	name = "aao_bachho_tumhe_dikhaye"
 	file = "aao_bachho_tumhe_dikhaye.ogg"
 }
@@ -25,8 +29,4 @@ music = {
 music = {
 	name = "sare_jahan_se_achha"
 	file = "sare_jahan_se_achha.ogg"
-}
-music = {
-	name = "traditional_background"
-	file = "traditional_background.ogg"
 }
