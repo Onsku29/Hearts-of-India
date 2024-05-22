@@ -126,6 +126,19 @@
  DHU:0 "Dhundup"
  DHU_DEF:0 "Dhundup"
  DHU_ADJ:0 "Dhundupian"
+ FEZ_democratic:0 "Free Economic Zone of New Delhi"
+ FEZ_democratic_DEF:0 "Free Economic Zone of New Delhi"
+ FEZ_neutrality:0 "Economic Zone of New Delhi"
+ FEZ_neutrality_DEF:0 "Economic Zone of New Delhi"
+ FEZ_communism:0 "People's Economic Zone of New Delhi"
+ FEZ_communism_DEF:0 "People's Economic Zone of New Delhi"
+ FEZ_fascism_ADJ:0 "Delhiite"
+ FEZ_democratic_ADJ:0 "Delhiite"
+ FEZ_neutrality_ADJ:0 "Delhiite"
+ FEZ_communism_ADJ:0 "Delhiite"
+ FEZ:0 "Economic Zone of New Delhi"
+ FEZ_DEF:0 "Economic Zone of New Delhi"
+ FEZ_ADJ:0 "Delhiite"
 
 
  
