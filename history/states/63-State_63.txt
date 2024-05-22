@@ -4,6 +4,11 @@ state={
 	provinces={
 		216 241 254 256 311 318 323 339 398 403 492 523 524 544 574 659 797 836 886 895 927 939 947 954 999 1020 1062 1124 1226 1274 
 	}
+	history={
+		owner = DEH
+		victory_points = { 5 50 }
+		add_core_of = DEH
+	}
 	buildings_max_level_factor=1.000
         manpower=200000
         state_category = town

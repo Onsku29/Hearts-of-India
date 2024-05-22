@@ -4,6 +4,11 @@ state={
 	provinces={
 		23 40 104 105 151 251 263 279 295 485 569 585 588 597 647 649 661 664 699 709 765 785 792 824 832 883 950 961 975 1011 1056 1153 1223 1228 1237 1246 
 	}
+	history={
+		owner = DEH
+		victory_points = { 5 50 }
+		add_core_of = DEH
+	}
 	buildings_max_level_factor=1.000
         manpower=300000
         state_category = large_town

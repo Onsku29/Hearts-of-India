@@ -119,7 +119,7 @@
  DHU_neutrality_DEF:0 "Dhundup"
  DHU_communism:0 "Dhundup Worker Collective"
  DHU_communism_DEF:0 "Dhundup Worker Collective"
- DHU_fascism_ADJ:0 "Dhundupese"
+ DHU_fascism_ADJ:0 "Dhundupian"
  DHU_democratic_ADJ:0 "Dhundupian"
  DHU_neutrality_ADJ:0 "Dhundupian"
  DHU_communism_ADJ:0 "Dhundupian"
@@ -139,6 +139,19 @@
  FEZ:0 "Economic Zone of New Delhi"
  FEZ_DEF:0 "Economic Zone of New Delhi"
  FEZ_ADJ:0 "Delhiite"
+ DEH_democratic:0 "Dehong Dai Cooperative"
+ DEH_democratic_DEF:0 "Dehong Dai Cooperative"
+ DEH_neutrality:0 "Dehong Dai"
+ DEH_neutrality_DEF:0 "Dehong Dai"
+ DEH_communism:0 "Dehong Dai Worker Collective"
+ DEH_communism_DEF:0 "Dehong Dai Worker Collective"
+ DEH_fascism_ADJ:0 "Dehong Daian"
+ DEH_democratic_ADJ:0 "Dehong Daian"
+ DEH_neutrality_ADJ:0 "Dehong Daian"
+ DEH_communism_ADJ:0 "Dehong Daian"
+ DEH:0 "Dehong Dai"
+ DEH_DEF:0 "Dehong Dai"
+ DEH_ADJ:0 "Dehong Daian"
 
 
  
