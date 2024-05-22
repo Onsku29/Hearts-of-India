@@ -4,6 +4,11 @@ state={
 	provinces={
 		236 314 383 477 631 965 978 1140 1242 1249 
 	}
+	history={
+		owner = FEZ
+		victory_points = { 5 50 }
+		add_core_of = FEZ
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = megalopolis

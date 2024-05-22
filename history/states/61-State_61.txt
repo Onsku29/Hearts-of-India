@@ -2,7 +2,7 @@ state={
 	id=61
 	name="STATE_61"
 	provinces={
-		442 741 979 1089 1234 863 970 285
+		442 741 979 1089 1234
 	}
 	history={
 		owner = BHA

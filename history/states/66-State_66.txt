@@ -1,15 +1,15 @@
 state={
-	id=25
-	name="STATE_25"
+	id=66
+	name="STATE_66"
 	provinces={
-		636 1146 
+		863 970 285
 	}
 	history={
-		owner = DAT
+		owner = BHA
 		victory_points = { 5 50 }
-		add_core_of = DAT
+		add_core_of = BHA
 	}
 	buildings_max_level_factor=1.000
-        manpower=600000
+        manpower=20000
         state_category = pastoral
 }

@@ -4,6 +4,11 @@ state={
 	provinces={
 		93 103 539 581 605 656 806 875 893 917 1039 1335 1340 
 	}
+	history={
+		owner = DAT
+		victory_points = { 5 50 }
+		add_core_of = DAT
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = large_city

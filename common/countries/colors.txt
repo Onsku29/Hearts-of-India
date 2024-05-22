@@ -34,3 +34,7 @@ DHU = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+FEZ = {
+	color = rgb { 128 206 107 }
+	color_ui = rgb { 128 206 107 }
+}
