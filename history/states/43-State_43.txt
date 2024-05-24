@@ -4,6 +4,10 @@ state={
 	provinces={
 		17 481 620 
 	}
+	resources={
+		steel=12
+		rubber=54
+	}
 	buildings_max_level_factor=1.000
         manpower=500000
         state_category = town

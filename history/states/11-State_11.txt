@@ -9,6 +9,10 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = CHG
 	}
+	resources={
+		steel=2
+		tungsten=22
+	}
 	buildings_max_level_factor=1.000
         manpower=200000
         state_category = rural

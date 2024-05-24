@@ -18,7 +18,7 @@ capital = 8
 		democratic = 95
 		fascism = 1
 		communism = 2
-		neutrality = 3
+		neutrality = 2
 	}
 	
 	create_country_leader = {

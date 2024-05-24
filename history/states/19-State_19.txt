@@ -10,6 +10,11 @@ state={
 		victory_points = { 535 45}
 		add_core_of = DAT
 	}
+	resources={
+		steel=22
+		rubber=12
+		aluminium=34
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = metropolis

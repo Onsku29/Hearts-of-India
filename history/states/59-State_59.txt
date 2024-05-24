@@ -9,6 +9,11 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = BHA
 	}
+	resources={
+		oil=52
+		tungsten=21
+		steel=19
+	}
 	buildings_max_level_factor=1.000
         manpower=3000000
         state_category = city

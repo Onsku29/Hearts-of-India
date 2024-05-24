@@ -4,6 +4,9 @@ state={
 	provinces={
 		1399 
 	}
+	resources={
+		rubber=2
+	}
 	buildings_max_level_factor=1.000
         manpower=7000
         state_category = tiny_island

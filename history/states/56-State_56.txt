@@ -9,6 +9,12 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = BIS
 	}
+	resources={
+		tungsten=12
+		chromium=21
+		aluminium=11
+		steel=45
+	}
 	buildings_max_level_factor=1.000
         manpower=100000
         state_category = rural

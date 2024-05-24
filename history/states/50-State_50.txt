@@ -4,6 +4,12 @@ state={
 	provinces={
 		26 27 116 134 153 340 500 596 751 903 1198 1206 
 	}
+	resources={
+		oil=35
+		aluminium=22
+		tungsten=45
+		chromium=25
+	}
 	buildings_max_level_factor=1.000
         manpower=5000000
         state_category = large_city

@@ -9,6 +9,11 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = DEH
 	}
+	resources={
+		aluminium=23
+		oil=21
+		rubber=11
+	}
 	buildings_max_level_factor=1.000
         manpower=300000
         state_category = large_town
