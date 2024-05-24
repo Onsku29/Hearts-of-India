@@ -24,7 +24,7 @@ capital = 14
 	create_country_leader = {
 		name = "Karam Kusari"
 		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
+		picture = "gfx//leaders//KUN//portrait_KUN_karam_kusari.dds"
 		ideology = despotism
 		traits = {
 			#
