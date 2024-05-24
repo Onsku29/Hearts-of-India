@@ -24,7 +24,7 @@ capital = 12
 	create_country_leader = {
 		name = "Kusika Bajpeyi"
 		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
+		picture = "gfx//leaders//CHG//portrait_CHG_kusika_bajpeyi.dds"
 		ideology = nazism
 		traits = {
 			#

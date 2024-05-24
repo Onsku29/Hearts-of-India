@@ -24,7 +24,7 @@ capital = 58
 	create_country_leader = {
 		name = "Mahadaji Banahatti"
 		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
+		picture = "gfx//leaders//BIS//portrait_BIS_mahadaji_banahatti.dds"
 		ideology = stalinism
 		traits = {
 			#
