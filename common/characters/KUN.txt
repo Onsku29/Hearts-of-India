@@ -1,0 +1,31 @@
+characters = {
+    KUN_Ca_Rawat={
+        name="Ca Rawat"
+        portraits={
+            civilian={
+                large="gfx/leaders/KUN/portrait_KUN_ca_rawat.dds"
+            }
+        }
+        country_leader{
+            ideology=despotism
+            traits={ 
+            dictator
+            popular_figurehead}
+            id=-1
+        }
+    }
+    KUN_Karam_Kusari={
+        name="Karam Kusari"
+        portraits={
+            civilian={
+                large="gfx/leaders/KUN/portrait_KUN_karam_kusari.dds"
+            }
+        }
+        country_leader{
+            ideology=despotism
+            traits={ great_war_hero}
+            id=-1
+        }
+    }
+}
+
