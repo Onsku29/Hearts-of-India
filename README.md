@@ -29,5 +29,5 @@
 - Free Economic Zone of New Delhi: Delhi Council
 - Kallur Kot: Abdut Tawwab al-Jabbar
 - Kunjipatal: Karam Kusari
-- Mahanta: Ashutosh Mahanta
+- Mahanta: Abhinav Mahanta
 - Pallepola: Rmadurapperuma Rajapaska
