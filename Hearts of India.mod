@@ -7,7 +7,6 @@ tags={
 picture="blank_map_template_5632x2048.jpg"
 replace_path="history/states"
 replace_path="history/countries"
-replace_path="common/ideas"
 replace_path="map/supplyareas"
 replace_path="map/strategicregions"
 replace_path="common/bookmarks"

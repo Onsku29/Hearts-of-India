@@ -1,6 +1,6 @@
 focus_tree = {
 	id = kunjipatal
-	continuous_focus_position = { x = -40 y = 1050 } 
+	continuous_focus_position = { x = 40 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -53,6 +53,7 @@ focus_tree = {
 			}
 		}
 	}
+	}
 
 	#A New plan
 	focus = {
@@ -97,6 +98,7 @@ add_ideas = KUN_stable_country
 			}
 		}
 	}
+	}
 
 	#Increase military investments
 	focus = {
@@ -124,6 +126,7 @@ add_ideas = KUN_stable_country
 			instant_build = yes
 			}
 		}
+	}
 	}
 
 	#Large scale industrial investments
