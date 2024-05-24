@@ -22,7 +22,7 @@ capital = 8
 	}
 	
 	create_country_leader = {
-		name = "Rmadurapperuma Rajapaska"
+		name = "Delhi Council"
 		desc = ""
 		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
 		ideology = conservatism

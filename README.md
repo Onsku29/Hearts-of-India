@@ -18,3 +18,16 @@
 - Fascism: Corporation
 - Democracy: Cooperative
 - Neutrality: Partnership
+
+# Leaders:
+- Bhavishy: Borakan Kharal
+- Biswan: Mahadaji Banahatti
+- Botalon: Kabalikrut Pattar
+- Chittagong: Kusika Bajpeyi
+- DataPUM: Radesh Deshmukh
+- Dehong Dai: Ding Xing
+- Free Economic Zone of New Delhi: Delhi Council
+- Kallur Kot: Abdut Tawwab al-Jabbar
+- Kunjipatal: Karam Kusari
+- Mahanta: Ashutosh Mahanta
+- Pallepola: Rmadurapperuma Rajapaska
