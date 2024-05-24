@@ -46,3 +46,7 @@ KUT = {
 	color = rgb { 254 234 59 }
 	color_ui = rgb { 254 234 59 }
 }
+KAK = {
+	color = rgb { 0 172 193 }
+	color_ui = rgb { 0 172 193 }
+}

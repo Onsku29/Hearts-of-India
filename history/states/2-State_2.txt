@@ -4,10 +4,6 @@ state={
 	provinces={
 		6 11 15 30 64 94 99 117 167 173 181 188 207 211 245 274 320 363 405 489 501 518 537 565 577 578 790 849 855 864 870 915 959 972 1018 1021 1050 1063 1108 1174 1212 1218 1252 
 	}
-	history = {
-		victory_points = { 518 5 }
-	}
-	
 	buildings_max_level_factor=1.000
         manpower=3000000
         state_category = city

@@ -1,4 +1,4 @@
-capital = 31
+capital = 1
 
 1939.1.1 = {
 	set_technology = {
@@ -22,9 +22,9 @@ capital = 31
 	}
 	
 	create_country_leader = {
-		name = "Mukut Ginjupalli"
+		name = "Abdut Tawwab al-Jabbar"
 		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
+		picture = "gfx//leaders//KUN//portrait_KUN_karam_kusari.dds"
 		ideology = despotism
 		traits = {
 			#
