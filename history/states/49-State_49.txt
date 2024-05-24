@@ -9,6 +9,11 @@ state={
 		tungsten=25
 		steel=45
 	}
+	history={
+		owner = KAK
+		victory_points = { 5 50 }
+		add_core_of = KAK
+	}
 	buildings_max_level_factor=1.000
         manpower=500000
         state_category = town

@@ -50,3 +50,7 @@ KAK = {
 	color = rgb { 0 172 193 }
 	color_ui = rgb { 0 172 193 }
 }
+KHG = {
+	color = rgb { 55 55 55 }
+	color_ui = rgb { 55 55 55 }
+}

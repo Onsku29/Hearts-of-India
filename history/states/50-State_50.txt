@@ -10,6 +10,11 @@ state={
 		tungsten=45
 		chromium=25
 	}
+	history={
+		owner = KHG
+		victory_points = { 5 50 }
+		add_core_of = KHG
+	}
 	buildings_max_level_factor=1.000
         manpower=5000000
         state_category = large_city
