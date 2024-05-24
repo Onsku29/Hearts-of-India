@@ -12,3 +12,9 @@
 - DHU = "countries/Dhundup.txt"
 - FEZ = "countries/Free Economic Zone of New Delhi.txt"
 - DEH = "countries/Dehong Dai.txt"
+
+# Main ideology names:
+- Communism: Worker Collective
+- Fascism: Corporation
+- Democracy: Cooperative
+- Neutrality: Partnership
