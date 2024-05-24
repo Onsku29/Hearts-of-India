@@ -4,6 +4,11 @@ state={
 	provinces={
 		24 158 294 297 312 324 353 372 380 491 525 545 633 638 663 700 710 735 748 871 894 983 1078 1113 1117 1157 1355 1357 1363 1370 1380 1383 1386 
 	}
+	resources={
+		rubber=85
+		steel=22
+		chromium=12
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = metropolis

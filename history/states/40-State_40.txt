@@ -9,6 +9,9 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = MAH
 	}
+	resources={
+		tungsten=43
+	}
 	buildings_max_level_factor=1.000
         manpower=14000000
         state_category = large_city

@@ -9,6 +9,10 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = MAH
 	}
+	resources={
+		steel=23
+		aluminium=11	
+	}
 	buildings_max_level_factor=1.000
         manpower=50000000
         state_category = megalopolis

@@ -11,6 +11,12 @@ state={
 		victory_points = { 305 17 }
 		add_core_of = DAT
 	}
+	resources={
+		steel=5
+		chromium=12
+		aluminium=22
+		tungsten=43
+	}
 	buildings_max_level_factor=1.000
         manpower=40000000
         state_category = large_city

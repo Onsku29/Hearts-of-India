@@ -9,6 +9,9 @@ state={
 		victory_points = { 1373 5 }
 		add_core_of = DAT
 	}
+	resources={
+		oil=2
+	}
 	buildings_max_level_factor=1.000
         manpower=5000000
         state_category = pastoral

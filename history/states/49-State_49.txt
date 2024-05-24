@@ -4,6 +4,11 @@ state={
 	provinces={
 		65 215 335 374 412 610 646 678 749 834 943 1201 1207 
 	}
+	resources={
+		aluminium=46
+		tungsten=25
+		steel=45
+	}
 	buildings_max_level_factor=1.000
         manpower=500000
         state_category = town

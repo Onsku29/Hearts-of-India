@@ -9,6 +9,11 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = BIS
 	}
+	resources={
+		steel=52
+		aluminium=32
+		tungsten=21
+	}
 	buildings_max_level_factor=1.000
         manpower=40000000
         state_category = metropolis

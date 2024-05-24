@@ -9,6 +9,14 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = FEZ
 	}
+	resources={
+		oil=22
+		steel=95
+		aluminium=88
+		chromium=42
+		tungsten=34
+		rubber=21
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = megalopolis

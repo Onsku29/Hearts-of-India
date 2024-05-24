@@ -9,6 +9,12 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = BON
 	}
+	resources={
+		steel=35
+		aluminium=22
+		chromium=13
+		tungsten=4
+	}
 	buildings_max_level_factor=1.000
         manpower=30000000
         state_category = metropolis

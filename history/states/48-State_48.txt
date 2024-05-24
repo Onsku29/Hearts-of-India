@@ -4,6 +4,13 @@ state={
 	provinces={
 		13 29 57 67 72 75 82 95 217 264 284 292 329 382 409 437 468 564 571 593 655 729 808 890 926 976 1155 1195 1202 1208 
 	}
+	resources={
+		oil=5
+		steel=65
+		tungsten=45
+		chromium=55
+		aluminium=20
+	}
 	history={
 		owner = KAK
 		victory_points = { 5 50 }

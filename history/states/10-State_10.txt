@@ -9,6 +9,13 @@ state={
 		victory_points = { 5 50 }
 		add_core_of = BHA
 	}
+	resources={
+		steel=66
+		tungsten=25
+		rubber=19
+		chromium=10
+		aluminium=9
+	}
 	buildings_max_level_factor=1.000
         manpower=40000000
         state_category = megalopolis
