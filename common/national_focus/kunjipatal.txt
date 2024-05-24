@@ -1,0 +1,181 @@
+focus_tree = {
+	id = kunjipatal
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KUN
+		}
+	}
+	#Political Stability
+	focus = {
+		id = KUN_political_stability
+		icon = GFX_focus_generic_self_management
+		x = 2
+		y = 0
+		cost = 35
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	#Industrial development
+	focus = {
+		id = KUN_industrial_development
+		icon = GFX_focus_generic_industry_1
+		x = 3
+		y = 1
+		cost = 35
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_political_stability  }
+		ai_will_do = { factor = 50 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+			}
+		}
+	}
+
+	#A New plan
+	focus = {
+		id = KUN_a_new_plan
+		icon = GFX_goal_generic_neutrality_focus
+		x = 1
+		y = 1
+		cost = 35
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = KUN_political_stability  }
+		select_effect = {
+add_ideas = KUN_stable_country
+}
+	}
+
+	#Focus on civilian develpment
+	focus = {
+		id = KUN_focus_on_civilian_develpment
+		icon = GFX_focus_generic_industry_2
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_industrial_development  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+		}
+	}
+
+	#Increase military investments
+	focus = {
+		id = KUN_increase_military_investments
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_industrial_development  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+			}
+		}
+	}
+
+	#Large scale industrial investments
+	focus = {
+		id = KUN_large_scale_industrial_investments
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 4
+		y = 3
+		cost = 35
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_focus_on_civilian_develpment  }
+		ai_will_do = { factor = 50 }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+		}
+	}
+
+	#Begin corporate mobilization
+	focus = {
+		id = KUN_begin_corporate_mobilization
+		icon = GFX_focus_generic_support_the_left_right
+		x = 2
+		y = 3
+		cost = 35
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_increase_military_investments  }
+		ai_will_do = { factor = 100 }
+		available = {
+			threat > 0.2
+			
+			
+		}
+		completion_reward = {
+			add_ideas = war_economy
+		}
+	}
+
+}

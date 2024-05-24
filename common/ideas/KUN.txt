@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		KUN_stable_country = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_build_infrastructure
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+	}
+}
