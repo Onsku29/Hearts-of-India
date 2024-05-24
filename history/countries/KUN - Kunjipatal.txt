@@ -2,10 +2,10 @@ capital = 14
 
 1939.1.1 = {
 	set_technology = {
-		infantry_weapons = 1
+		infantry_weapons = 2
 	}
 	
-	set_convoys = 20
+	set_convoys = 5
 	
 	set_politics = {
 		ruling_party = neutrality
@@ -30,4 +30,5 @@ capital = 14
 			#
 		}
 	}
+	recruit_character = KUN_Ca_Rawat
 }

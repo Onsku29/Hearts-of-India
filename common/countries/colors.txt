@@ -42,7 +42,3 @@ DEH = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
-KUT = {
-	color = rgb { 254 234 59 }
-	color_ui = rgb { 254 234 59 }
-}
