@@ -9,6 +9,11 @@ state={
 		steel=23
 		oil=11
 	}
+	history={
+		owner = KWA
+		victory_points = { 5 50 }
+		add_core_of = KWA
+	}
 	buildings_max_level_factor=1.000
         manpower=50000000
         state_category = megalopolis

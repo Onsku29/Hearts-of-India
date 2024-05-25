@@ -9,6 +9,11 @@ state={
 		steel=22
 		chromium=12
 	}
+	history={
+		owner = SAS
+		victory_points = { 5 50 }
+		add_core_of = SAS
+	}
 	buildings_max_level_factor=1.000
         manpower=20000000
         state_category = metropolis

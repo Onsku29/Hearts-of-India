@@ -7,6 +7,11 @@ state={
 	resources={
 		oil=20
 	}
+	history={
+		owner = KWA
+		victory_points = { 5 50 }
+		add_core_of = KWA
+	}
 	buildings_max_level_factor=1.000
         manpower=70000
         state_category = pastoral

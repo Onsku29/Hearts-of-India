@@ -54,3 +54,11 @@ KHG = {
 	color = rgb { 55 55 55 }
 	color_ui = rgb { 55 55 55 }
 }
+KWA = {
+	color = rgb { 255 213 79 }
+	color_ui = rgb { 255 213 79 }
+}
+SAS = {
+	color = rgb { 0 105 92 }
+	color_ui = rgb { 0 105 92 }
+}

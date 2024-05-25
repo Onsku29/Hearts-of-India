@@ -8,6 +8,7 @@ state={
 		owner = DEH
 		victory_points = { 5 50 }
 		add_core_of = DEH
+		add_claim_by = CHG
 	}
 	resources={
 		steel=23

@@ -31,6 +31,10 @@ capital = 26
 		}
 	}
 
+	create_faction = "Mumbai Alliance"
+	add_to_faction = DAT
+	add_to_faction = BON
+
 	recruit_character = DAT_abhescock_chopra
 
 }

@@ -30,4 +30,7 @@ capital = 38
 			#
 		}
 	}
+
+	create_faction = "Peace East India League"
+	add_to_faction = MAH
 }

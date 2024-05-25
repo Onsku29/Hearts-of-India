@@ -3,9 +3,9 @@ state={
 	name="STATE_1"
 	manpower = 1000000
 	resources={
-		oil=28
-		steel=60
-		aluminium=50
+		oil=48
+		steel=80
+		aluminium=70
 	}
 	state_category = town
 	history={
