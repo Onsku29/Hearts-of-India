@@ -7,7 +7,7 @@ state={
 	history={
 		owner = DAT
 		victory_points = { 475 20 }
-		victory_points = { 535 45}
+		victory_points = { 535 45 }
 		add_core_of = DAT
 	}
 	resources={

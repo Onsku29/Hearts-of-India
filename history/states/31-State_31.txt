@@ -6,6 +6,10 @@ state={
 	}
 	history={
 		owner = KUT
+		victory_points = { 987 35 }
+		victory_points = { 129 20 }
+		victory_points = { 1024 15 }
+		victory_points = { 764 5 }
 		add_core_of = KUT
 	}
 	resources={

@@ -6,7 +6,11 @@ state={
 	}
 	history={
 		owner = FEZ
-		victory_points = { 5 50 }
+		victory_points = { 1140 60 }
+		victory_points = { 978 30 }
+		victory_points = { 314 25 }
+		victory_points = { 236 25 }
+		victory_points = { 477 20 }
 		add_core_of = FEZ
 	}
 	resources={

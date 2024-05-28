@@ -6,7 +6,11 @@ state={
 	}
 	history={
 		owner = MAH
-		victory_points = { 5 50 }
+		victory_points = { 423 40 }
+		victory_points = { 843 30 }
+		victory_points = { 693 25 }
+		victory_points = { 859 2 }
+		victory_points = { 1185 2 }
 		add_core_of = MAH
 	}
 	resources={

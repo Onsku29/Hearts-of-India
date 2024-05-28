@@ -6,7 +6,10 @@ state={
 	}
 	history={
 		owner = BON
-		victory_points = { 5 50 }
+		victory_points = { 796 45 }
+		victory_points = { 856 20 }
+		victory_points = { 1081 20 }
+		victory_points = { 1179 25 }
 		add_core_of = BON
 	}
 	resources={
@@ -18,5 +21,5 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=30000000
-        state_category = metropolis
+        state_category = megalopolis
 }
