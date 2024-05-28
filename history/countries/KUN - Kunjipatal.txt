@@ -31,4 +31,6 @@ capital = 14
 		}
 	}
 	recruit_character = KUN_Ca_Rawat
+	set_stability = 0.1
+	set_war_support = 0.5
 }

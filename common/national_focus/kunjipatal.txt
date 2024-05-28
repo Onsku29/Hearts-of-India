@@ -1,6 +1,6 @@
 ﻿focus_tree = {
 	id = kunjipatal
-	continuous_focus_position = { x = 40 y = 1050 } 
+	continuous_focus_position = { x = 600 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -253,7 +253,7 @@
 	focus = {
 		id = KUN_kunjipatali_security_forces
 		icon = GFX_focus_chi_army_reform
-		x = 10
+		x = 12
 		y = 0
 		cost = 5
 		search_filters = {
@@ -265,21 +265,22 @@
 	focus = {
 		id = KUN_new_blood_in_the_army
 		icon = GFX_focus_generic_manpower
-		x = 10
-		y = 1
+		x = 12
+		y = 2
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = KUN_kunjipatali_security_forces  }
+				prerequisite = { focus = KUN_kunjipatali_security_forces  } prerequisite = { focus = KUN_fund_the_research_houses  } prerequisite = { focus = KUN_big_guns_to_achieve_our_big_plans  }
+
 	}
 
 	#Aerial Army
 	focus = {
 		id = KUN_aerial_army
 		icon = GFX_focus_chi_flying_tigers
-		x = 9
-		y = 2
+		x = 10
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -292,8 +293,8 @@
 	focus = {
 		id = KUN_kunjipatal_panzer_corps
 		icon = GFX_focus_generic_army_tanks2
-		x = 11
-		y = 2
+		x = 14
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -327,4 +328,588 @@
 		}
 		prerequisite = { focus = KUN_strong_and_united_under_karam_kusari  }
 	}
+	
+	#New direction for our economy
+	focus = {
+		id = KUN_new_direction_for_our_economy
+		icon = GFX_focus_generic_industry_3
+		x = 7
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_new_spirit_under_new_leadership  }
+	}
+
+	#Go with Radesh
+	focus = {
+		id = KUN_go_with_radesh
+		icon = GFX_KUN_go_with_radesh-662071
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KUN_aggressive_tax_cuts  } prerequisite = { focus = KUN_wipe_out_competitors  }
+	}
+
+	#A Helicopter Airforce
+	focus = {
+		id = KUN_a_helicopter_airforce
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_aerial_army  }
+		mutually_exclusive = { focus = KUN_a_conventional_airforce_for_a_conventional_man  }
+	}
+
+	#A Conventional airforce for a conventional man
+	focus = {
+		id = KUN_a_conventional_airforce_for_a_conventional_man
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_aerial_army  }
+		mutually_exclusive = { focus = KUN_a_helicopter_airforce  }
+	}
+
+	#Begin Development on the Rahjeev Kunda MBT
+	focus = {
+		id = KUN_begin_development_on_the_rahjeev_kunda_mbt
+		icon = GFX_focus_generic_tank_production
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_kunjipatal_panzer_corps  }
+		mutually_exclusive = { focus = KUN_light_and_fast_is_the_way_to_go  }
+	}
+
+	#True Neutrality
+	focus = {
+		id = KUN_true_neutrality
+		icon = GFX_focus_generic_home_defense
+		x = 8
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KUN_new_direction_for_our_economy  }
+	}
+
+	#Light and Fast is the way to go
+	focus = {
+		id = KUN_light_and_fast_is_the_way_to_go
+		icon = GFX_KUN_light_and_fast_is_the_way_to_go-646129
+		x = 15
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_kunjipatal_panzer_corps  }
+		mutually_exclusive = { focus = KUN_begin_development_on_the_rahjeev_kunda_mbt  }
+	}
+
+	#Dire hour in Kunjipatal
+	focus = {
+		id = KUN_dire_hour_in_kunjipatal
+		icon = GFX_KUN_dire_hour_in_kunjipatal-645990
+		x = 12
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_war = yes
+			
+			
+		}
+	}
+
+	#Airbases for our grand Airforce
+	focus = {
+		id = KUN_airbases_for_our_grand_airforce
+		icon = GFX_goal_generic_build_airforce
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_a_helicopter_airforce  focus = KUN_a_conventional_airforce_for_a_conventional_man  }
+	}
+
+	#Restore faith
+	focus = {
+		id = KUN_restore_faith
+		icon = GFX_KUN_restore_faith-645692
+		x = 8
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_stability > 0.6
+			
+			
+		}
+	}
+
+	#Rapid reemployment programs
+	focus = {
+		id = KUN_rapid_reemployment_programs
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 8
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KUN_restore_faith  }
+		available = {
+			has_political_power > 100
+			has_stability > 0.8
+			
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+			}
+			}
+			
+			
+			add_research_slot = 1
+			
+			
+		}
+	}
+
+	#Industrial tools for our industry
+	focus = {
+		id = KUN_industrial_tools_for_our_industry
+		icon = GFX_KUN_industrial_tools_for_our_industry-645960
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KUN_fund_research  }
+		completion_reward = {
+			add_tech_bonus = {
+			  bonus = 1.0
+			  uses = 2
+							category = industry
+			}
+			
+		}
+	}
+
+	#Fund the research houses
+	focus = {
+		id = KUN_fund_the_research_houses
+		icon = GFX_KUN_fund_the_research_houses-645755
+		x = 11
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KUN_kunjipatali_security_forces  }
+	}
+
+	#Big guns to achieve our big plans
+	focus = {
+		id = KUN_big_guns_to_achieve_our_big_plans
+		icon = GFX_goal_generic_army_artillery2
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KUN_kunjipatali_security_forces  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = artillery
+			    amount = 5000
+			    producer = KUN
+			}
+			
+			
+			
+		}
+	}
+
+	#Aquire a grand mercenary army from DataPum
+	focus = {
+		id = KUN_aquire_a_grand_mercenary_army_from_datapum
+		icon = GFX_KUN_aquire_a_grand_mercenary_army_from_datapum-645933
+		x = 6
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = KUN_go_with_radesh  }
+		available = {
+			has_any_license = yes
+			
+			
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 10000
+			    producer = DAT
+			}
+			
+			
+			
+		}
+	}
+
+	#Third Four year Plan
+	focus = {
+		id = KUN_third_four_year_plan
+		icon = GFX_KUN_third_four_year_plan-646254
+		x = 1
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_industrial_tools_for_our_industry  focus = KUN_infrastructure_for_the_masses  }
+		available = {
+			date < 2026.01.01
+			
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 2
+			    uses = 3
+			    category = industry
+			}
+			
+			
+			
+		}
+	}
+
+	#Infrastructure for the masses
+	focus = {
+		id = KUN_infrastructure_for_the_masses
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_fund_research  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = infrastructure
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+			type = infrastructure
+			level = 10
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#The Mighty Mahanta
+	focus = {
+		id = KUN_the_mighty_mahanta
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KUN_wipe_out_competitors  } prerequisite = { focus = KUN_aggressive_tax_cuts  }
+		completion_reward = {
+			add_opinion_modifier = {
+			    target = MAH
+			    modifier = KUN_allience_modifier 
+			}
+			
+			
+			
+		}
+	}
+
+	#Secure new funding
+	focus = {
+		id = KUN_secure_new_funding
+		icon = GFX_KUN_secure_new_funding-645817
+		x = 4
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_the_mighty_mahanta  }
+		completion_reward = {
+			consumer_goods_factor = 0.1
+		}
+	}
+
+	#Expand the tank industry
+	focus = {
+		id = KUN_expand_the_tank_industry
+		icon = GFX_focus_generic_tank_production
+		x = 14
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = KUN_begin_development_on_the_rahjeev_kunda_mbt  focus = KUN_light_and_fast_is_the_way_to_go  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#Industrial might
+	focus = {
+		id = KUN_industrial_might
+		icon = GFX_KUN_industrial_might-645972
+		x = 0
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_third_four_year_plan  }
+		completion_reward = {
+			build_railway = {
+			  level = 5
+			  build_only_on_allied = yes
+			  controller_priority = {
+			    base = 1
+			   
+			    modifier = {
+			      tag = KUN
+			      add = 2
+			    }
+			  }
+			  fallback = yes
+			  path = { 10 20 30 40 }
+			  start_province = 1110
+			  target_province = 934
+			}
+			
+			build_railway = {
+			  level = 5
+			  build_only_on_allied = yes
+			  controller_priority = {
+			    base = 1
+			   
+			    modifier = {
+			      tag = KUN
+			      add = 2
+			    }
+			  }
+			  fallback = yes
+			  path = { 10 20 30 40 }
+			  start_state = 14
+			  target_state = 14
+			}
+			
+			
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Secure our nation
+	focus = {
+		id = KUN_secure_our_nation
+		icon = GFX_focus_RAJ_all_india_forward_bloc
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KUN_third_four_year_plan  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = anti_air_building
+			size = 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = anti_air_building
+			level = 5
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = anti_air_building
+			size = 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = anti_air_building
+			level = 5
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = anti_air_building
+			size = 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = anti_air_building
+			level = 5
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Put old equipment back in to service
+	focus = {
+		id = KUN_put_old_equipment_back_in_to_service
+		icon = GFX_KUN_put_old_equipment_back_in_to_service-646319
+		x = 8
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KUN_true_neutrality  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 25000
+			    producer = KUN
+			}
+			add_equipment_to_stockpile = {
+			    type = support_equipment
+			    amount = 10000
+			    producer = KUN
+			}
+			add_equipment_to_stockpile = {
+			    type = artillery
+			    amount = 15000
+			    producer = KUN
+			}
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 100
+			    producer = KUN
+			}
+			
+		}
+	}
+
 }

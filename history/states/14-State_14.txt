@@ -8,6 +8,11 @@ state={
 		owner = KUN
 		victory_points = { 5 50 }
 		add_core_of = KUN
+		buildings = {
+		infrastructure = 4
+		industrial_complex = 5
+		air_base = 3
+	}
 	}
 	resources={
 		steel=64
@@ -17,6 +22,7 @@ state={
 		aluminium=15
 		chromium=2
 	}
+	
 	buildings_max_level_factor=1.000
         manpower=40000000
         state_category = megalopolis
