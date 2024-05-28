@@ -12,6 +12,7 @@ state={
 		victory_points = { 798 20 }
 		victory_points = { 1161 20 }
 		victory_points = { 1163 20 }
+		victory_points = { 458 25 }
 		add_core_of = KUN
 		buildings = {
 		infrastructure = 4
