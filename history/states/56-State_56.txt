@@ -6,7 +6,9 @@ state={
 	}
 	history={
 		owner = BIS
-		victory_points = { 5 50 }
+		victory_points = { 85 15 }
+		victory_points = { 900 2 }
+		victory_points = { 376 1 }
 		add_core_of = BIS
 	}
 	resources={

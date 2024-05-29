@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		owner = CHG
-		victory_points = { 5 50 }
+		victory_points = { 683 35 }
 		add_core_of = CHG
 	}
 	resources={
@@ -15,5 +15,5 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=500000
-        state_category = town
+        state_category = city
 }

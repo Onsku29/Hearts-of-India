@@ -6,7 +6,8 @@ state={
 	}
 	history={
 		owner = BIS
-		victory_points = { 5 50 }
+		victory_points = { 421 5 }
+		victory_points = { 503 6 }
 		add_core_of = BIS
 	}
 	resources={
@@ -17,5 +18,5 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=10000000
-        state_category = city
+        state_category = town
 }
