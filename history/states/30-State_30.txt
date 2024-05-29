@@ -11,7 +11,13 @@ state={
 	}
 	history={
 		owner = SAS
-		victory_points = { 5 50 }
+		victory_points = { 894 40 }
+		victory_points = { 748 2 }
+		victory_points = { 1386 3 }
+		victory_points = { 491 8 }
+		victory_points = { 1113 4 }
+		victory_points = { 983 12 }
+		victory_points = { 1363 16 }
 		add_core_of = SAS
 	}
 	buildings_max_level_factor=1.000

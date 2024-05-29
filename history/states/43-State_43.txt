@@ -10,7 +10,7 @@ state={
 	}
 	history={
 		owner = SAS
-		victory_points = { 5 50 }
+		victory_points = { 620 25 }
 		add_core_of = SAS
 	}
 	buildings_max_level_factor=1.000

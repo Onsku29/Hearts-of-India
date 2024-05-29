@@ -11,7 +11,15 @@ state={
 	}
 	history={
 		owner = KWA
-		victory_points = { 5 50 }
+		victory_points = { 800 11 }
+		victory_points = { 1374 10 }
+		victory_points = { 469 4 }
+		victory_points = { 269 16 }
+		victory_points = { 1337 26 }
+		victory_points = { 945 5 }
+		victory_points = { 847 5 }
+		victory_points = { 407 8 }
+		victory_points = { 1384 3 }
 		add_core_of = KWA
 	}
 	buildings_max_level_factor=1.000
