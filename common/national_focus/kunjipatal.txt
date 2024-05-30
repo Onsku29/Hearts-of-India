@@ -67,7 +67,7 @@
 		}
 		prerequisite = { focus = KUN_political_stability  }
 		ai_will_do = { factor = 40 }
-		select_effect = {
+		completion_reward = {
 			add_ideas = KUN_stable_country
 		}
 	}
@@ -210,6 +210,12 @@
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+		}
 		prerequisite = { focus = KUN_a_new_plan  }
 	}
 
@@ -249,6 +255,13 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = KUN_our_own_way  }
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.2
+			}
+			add_stability = 0.1
+		}
 		mutually_exclusive = { focus = KUN_new_spirit_under_new_leadership  }
 	}
 
@@ -274,8 +287,10 @@
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-				prerequisite = { focus = KUN_kunjipatali_security_forces  } prerequisite = { focus = KUN_fund_the_research_houses  } prerequisite = { focus = KUN_big_guns_to_achieve_our_big_plans  }
-
+		prerequisite = { focus = KUN_kunjipatali_security_forces  } prerequisite = { focus = KUN_fund_the_research_houses  } prerequisite = { focus = KUN_big_guns_to_achieve_our_big_plans  }
+		completion_reward = {
+			add_manpower = 100000
+		}
 	}
 
 	#Aerial Army
@@ -317,6 +332,9 @@
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
 		prerequisite = { focus = KUN_strong_and_united_under_karam_kusari  }
+		completion_reward = {
+			add_stability = 0.2
+		}
 	}
 
 	#Aggressive Tax Cuts
@@ -330,6 +348,9 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = KUN_strong_and_united_under_karam_kusari  }
+		completion_reward = {
+			add_ideas = KUN_tax_cuts
+		}
 	}
 	
 	#New direction for our economy
@@ -342,6 +363,9 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = KUN_new_spirit_under_new_leadership  }
+		completion_reward = {
+			add_ideas = KUN_new_direction_for_our_economy
+		}
 	}
 
 	#Go with Radesh
@@ -355,6 +379,12 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = KUN_aggressive_tax_cuts  } prerequisite = { focus = KUN_wipe_out_competitors  }
+		completion_reward = {
+			add_opinion_modifier = {
+			    target = DAT
+			    modifier = KUN_allience_modifier 
+			}
+		}
 	}
 
 	#A Helicopter Airforce
@@ -369,6 +399,9 @@
 		}
 		prerequisite = { focus = KUN_aerial_army  }
 		mutually_exclusive = { focus = KUN_a_conventional_airforce_for_a_conventional_man  }
+		completion_reward = {
+			add_ideas = KUN_helicopter_airforce
+		}
 	}
 
 	#A Conventional airforce for a conventional man
@@ -410,6 +443,9 @@
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = KUN_new_direction_for_our_economy  }
+		completion_reward = {
+			add_ideas = KUN_kunjipatali_neutrality
+		}
 	}
 
 	#Light and Fast is the way to go
@@ -454,6 +490,38 @@
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = KUN_a_helicopter_airforce  focus = KUN_a_conventional_airforce_for_a_conventional_man  }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+				free_building_slots = {
+				building = air_base 
+				size > 0
+				include_locked = yes
+				}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = air_base
+				level = 5
+				instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+				free_building_slots = {
+				building = air_base 
+				size > 0
+				include_locked = yes
+				}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = air_base
+				level = 5
+				instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Restore faith
@@ -524,10 +592,6 @@
 			instant_build = yes
 			}
 			}
-			
-			
-			
-			
 		}
 	}
 
@@ -709,7 +773,7 @@
 		}
 		prerequisite = { focus = KUN_the_mighty_mahanta  }
 		completion_reward = {
-			consumer_goods_factor = 0.1
+			add_ideas = KUN_new_funding
 		}
 	}
 

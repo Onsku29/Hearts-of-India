@@ -1,6 +1,22 @@
 ideas = {
 
 	country = {
+		KUN_shell_shocked_spectator_of_the_corporate_war = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_fra_devalue_the_franc
+			modifier = {
+				weekly_manpower = -1000
+				consumer_goods_factor = 0.1
+				surrender_limit = -0.8
+				stability_weekly = -0.01
+			}
+		}
 		KUN_stable_country = {
 			removal_cost = -1
 			allowed = {
@@ -10,9 +26,100 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = generic_build_infrastructure
+			picture = GFX_goal_generic_neutrality_focus
 			modifier = {
 				stability_weekly = 0.01
+			}
+		}
+		KUN_new_funding = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_fra_devalue_the_franc
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		KUN_tax_cuts = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_hol_abandon_the_gold_standard
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		KUN_new_direction_for_our_economy = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_goal_continuous_non_factory_construct
+			modifier = {
+				consumer_goods_factor = -0.3
+			}
+		}
+		KUN_kunjipatali_neutrality = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_goal_generic_neutrality_focus
+			set_rule = {
+				can_join_factions = no
+			} 
+			
+		}
+		KUN_helicopter_airforce = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_goal_generic_build_airforce
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.5
+					air_agility = -0.30
+					maximum_speed = -0.30
+					instant = yes
+				}
+			}
+		}
+		KUN_dire_hour_in_kunjipatal = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_KUN_dire_hour_in_kunjipatal-645990
+			modifier = {
+				weekly_manpower = 1000
+				surrender_limit = 2
+				stability_weekly = 0.05
 			}
 		}
 	}
