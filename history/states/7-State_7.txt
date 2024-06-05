@@ -11,7 +11,8 @@ state={
 	}
 	history={
 		owner = KHG
-		victory_points = { 5 50 }
+		victory_points = { 12 15 }
+		victory_points = { 721 15 }
 		add_core_of = KHG
 	}
 	buildings_max_level_factor=1.000

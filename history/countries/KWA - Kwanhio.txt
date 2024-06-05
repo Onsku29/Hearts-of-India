@@ -31,7 +31,7 @@ capital = 65
 		}
 	}
 
-	create_faction = "South Asian Corporate Alliance"
+	create_faction = "South Asian Cooperative Alliance"
 	add_to_faction = KWA
 	add_to_faction = SAS
 }

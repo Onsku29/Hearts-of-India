@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = DHU
-		victory_points = { 5 50 }
 		add_core_of = DHU
 	}
 	resources={
@@ -18,5 +17,5 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=200000
-        state_category = town
+        state_category = wasteland
 }

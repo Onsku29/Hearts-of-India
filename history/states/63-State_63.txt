@@ -6,7 +6,10 @@ state={
 	}
 	history={
 		owner = DEH
-		victory_points = { 5 50 }
+		victory_points = { 216 25 }
+		victory_points = { 659 15 }
+		victory_points = { 339 10 }
+		victory_points = { 256 20 }
 		add_core_of = DEH
 		add_claim_by = CHG
 	}

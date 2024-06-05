@@ -30,4 +30,10 @@ capital = 58
 			#
 		}
 	}
+
+	create_faction = "Colintern"
+	add_to_faction = BIS
+	add_to_faction = DHU
+	add_to_faction = DEH
+
 }
