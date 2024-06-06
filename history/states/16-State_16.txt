@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = CHG
-		victory_points = { 5 50 }
 		add_core_of = CHG
 	}
 	resources={
