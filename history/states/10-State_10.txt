@@ -6,7 +6,10 @@ state={
 	}
 	history={
 		owner = BHA
-		victory_points = { 5 50 }
+		victory_points = { 483 45 }
+		victory_points = { 680 35 }
+		victory_points = { 10 15 }
+		victory_points = { 592 7 }
 		add_core_of = BHA
 	}
 	resources={
