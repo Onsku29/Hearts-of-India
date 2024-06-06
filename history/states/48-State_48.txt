@@ -15,6 +15,7 @@ state={
 		owner = KAK
 		victory_points = { 437 35 }
 		victory_points = { 382 10 }
+		victory_points = { 264 5 }
 		add_core_of = KAK
 	}
 	buildings_max_level_factor=1.000
