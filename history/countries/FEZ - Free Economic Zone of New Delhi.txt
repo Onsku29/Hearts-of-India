@@ -24,7 +24,7 @@ capital = 8
 	create_country_leader = {
 		name = "Delhi Council"
 		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+		picture = "gfx//leaders//FEZ//portrait_FEZ_delhi_council.dds"
 		ideology = conservatism
 		traits = {
 			#
