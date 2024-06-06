@@ -536,8 +536,9 @@
 		}
 		available = {
 			has_stability > 0.6
-			
-			
+		}
+		completion_reward = {
+			remove_ideas = { KUN_shell_shocked_spectator_of_the_corporate_war }
 		}
 	}
 
@@ -642,7 +643,7 @@
 		prerequisite = { focus = KUN_kunjipatali_security_forces  }
 		completion_reward = {
 			add_equipment_to_stockpile = {
-			    type = artillery
+			    type = artillery_equipment
 			    amount = 5000
 			    producer = KUN
 			}
@@ -673,9 +674,6 @@
 			    amount = 10000
 			    producer = DAT
 			}
-			
-			
-			
 		}
 	}
 
@@ -691,7 +689,7 @@
 		}
 		prerequisite = { focus = KUN_industrial_tools_for_our_industry  focus = KUN_infrastructure_for_the_masses  }
 		available = {
-			date < 2026.01.01
+			date > 2026.01.01
 			
 			
 		}
@@ -967,7 +965,7 @@
 			    producer = KUN
 			}
 			add_equipment_to_stockpile = {
-			    type = artillery
+			    type = artillery_equipment
 			    amount = 15000
 			    producer = KUN
 			}

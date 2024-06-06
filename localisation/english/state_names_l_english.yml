@@ -12,7 +12,7 @@
  STATE_11:0 "Myitkyina"
  STATE_12:0 "Chittagong"
  STATE_13:1 "Rajasthan"
- STATE_14:0 "Chhattishgarh"
+ STATE_14: "Chhattishgarh"
  STATE_15:0 "Maharashtra"
  STATE_16:0 "Bihar"
  STATE_17:1 "Western Bhuj Area"
@@ -65,3 +65,4 @@
  STATE_64:0 "West Bengal"
  STATE_65:0 "Myanmar"
  STATE_66:0 "South Keti Bunder"
+ STATE_67: "Bhopal"

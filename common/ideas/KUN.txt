@@ -14,7 +14,7 @@ ideas = {
 				weekly_manpower = -1000
 				consumer_goods_factor = 0.1
 				surrender_limit = -0.8
-				stability_weekly = -0.01
+				stability_weekly = -0.005
 			}
 		}
 		KUN_stable_country = {

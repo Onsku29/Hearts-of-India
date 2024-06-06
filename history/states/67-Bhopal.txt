@@ -1,0 +1,18 @@
+state={
+	id=67
+	name=STATE_67
+	provinces={
+		47 90 277 304 348 406 509 552 555 567 602 625 640 727 811 877 919 937 1067 1112 1156 1180 1303 1305 1321 1329 1330
+	}
+	history={
+		owner = KUN
+		victory_points = { 90 30 }
+		add_core_of = KUN
+	}
+	resources={
+		aluminium=11	
+	}
+	buildings_max_level_factor=1.000
+    manpower=40000000
+    state_category = large_town
+}

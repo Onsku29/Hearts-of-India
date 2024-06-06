@@ -1,0 +1,28 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		1 22 28 48 60 83 91 113 131 137 145 183 187 220 230 233 238 243 257 260 270 281 300 303 349 352 364 367 378 388 392 425 436 458 459 490 527 529 563 591 598 632 643 668 673 687 701 706 715 730 737 743 762 798 818 820 826 853 865 905 934 941 958 964 986 1023 1027 1032 1042 1077 1096 1110 1116 1125 1128 1137 1142 1161 1163 1165 1167 1175 1178 1192 1259 1271 1301 1306 1314 1315 1328 1332 1334 1336 1338 1351 
+	}
+	history={
+		owner = KUN
+		victory_points = { 243 20 }
+		victory_points = { 436 35 }
+		victory_points = { 798 20 }
+		victory_points = { 1161 20 }
+		victory_points = { 1163 20 }
+		victory_points = { 458 25 }
+		add_core_of = KUN
+		buildings = {
+		infrastructure = 2
+		industrial_complex = 5
+		air_base = 3
+		}
+	}
+	resources={
+		steel=23
+	}
+	buildings_max_level_factor=1.000
+        manpower=40000000
+        state_category = megalopolis
+}
