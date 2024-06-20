@@ -1,0 +1,23 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = datapum_news
+
+news_event = {
+	id = datapum_news.1
+	title = "Jai radesh!"
+	desc = datapum_test
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "JAI DATAPUM"
+	}
+
+}
+
+
