@@ -1,13 +1,12 @@
 state={
-	id=14
-	name="STATE_14"
+	id=69
+	name="STATE_69"
 	provinces={
-		22 28 113 131 137 187 233 238 270 364 458 459 591 598 673 701 706 798 818 865 934 941 958 1027 1096 1125 1167 1175 1178 1192 1301 1306 
+		91 632 378 425 1032 436 183 527 1259 737 826 853 668 730 1271 48 260 1077 230 1128 964 1042
 	}
 	history={
 		owner = KUN
-		victory_points = { 798 20 }
-		victory_points = { 458 25 }
+		victory_points = { 436 35 }
 		add_core_of = KUN
 		buildings = {
 		infrastructure = 2

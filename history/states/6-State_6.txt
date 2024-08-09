@@ -2,12 +2,11 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		159 166 265 278 355 541 580 626 697 783 1149 1254 
+		159 166 265 278 541 580 626 697 783 1149 
 	}
 	history={
 		owner = BIS
 		victory_points = { 159 15 }
-		victory_points = { 355 5 }
 		victory_points = { 626 20 }
 		add_core_of = BIS
 	}

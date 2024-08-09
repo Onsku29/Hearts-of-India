@@ -1,0 +1,25 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		60 1 1314 1161 392 1163 352 1315 762 687 529 145 281 820 220 1023 349 743 1110 1328 905 257 1338 367 1137 490 303 563 643 243 1116 1142 388 83 715 300 1165 1332 986 1334 1336 1351
+	}
+	history={
+		owner = KUN
+		victory_points = { 243 20 }
+		victory_points = { 1161 20 }
+		victory_points = { 1163 20 }
+		add_core_of = KUN
+		buildings = {
+		infrastructure = 2
+		industrial_complex = 5
+		air_base = 3
+		}
+	}
+	resources={
+		steel=23
+	}
+	buildings_max_level_factor=1.000
+        manpower=40000000
+        state_category = megalopolis
+}
