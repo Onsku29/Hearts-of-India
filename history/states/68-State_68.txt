@@ -6,14 +6,7 @@ state={
 	}
 	history={
 		owner = BIS
-		victory_points = { 1255 25 }
 		victory_points = { 80 35 }
-		victory_points = { 991 20 }
-		victory_points = { 222 20 }
-		victory_points = { 177 15 }
-		victory_points = { 810 1 }
-		victory_points = { 343 3 }
-		victory_points = { 355 5 }
 		add_core_of = BIS
 	}
 	resources={
