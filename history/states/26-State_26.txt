@@ -14,6 +14,9 @@ state={
 		victory_points = { 711 15 }
 		victory_points = { 322 20 }
 		add_core_of = DAT
+		buildings = {
+			dockyard = 5
+		}
 	}
 	resources={
 		steel=63

@@ -8,6 +8,10 @@ state={
 		owner = KUN
 		victory_points = { 90 30 }
 		add_core_of = KUN
+		buildings = {
+			arms_factory = 5
+			industrial_complex = 5
+		}
 	}
 	resources={
 		aluminium=11	

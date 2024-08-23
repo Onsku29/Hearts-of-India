@@ -12,6 +12,10 @@ state={
 		victory_points = { 556 10 }
 		victory_points = { 457 15}
 		add_core_of = MAH
+		buildings = {
+			arms_factory = 5
+			industrial_complex = 5
+		}
 	}
 	resources={
 		steel=23
