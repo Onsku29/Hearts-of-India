@@ -2,8 +2,8 @@ bookmarks = {
 	bookmark = {
 		name = "Dark clouds over India"
 		desc = "DARK_CLOUDS_DESC"
-		date = 2024.1.1.12
-		picture = "GFX_select_date_2024"
+		date = 2025.1.1.12
+		picture = "GFX_select_date_2025"
 		default_country = "DAT"
 		default = yes
 		
