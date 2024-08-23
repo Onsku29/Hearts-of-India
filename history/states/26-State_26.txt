@@ -16,6 +16,7 @@ state={
 		add_core_of = DAT
 		buildings = {
 			dockyard = 5
+			industrial_complex = 5
 		}
 	}
 	resources={
