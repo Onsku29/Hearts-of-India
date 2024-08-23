@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_select_date_2024"
-		texturefile = "gfx/interface/select_date_2024.dds"
+		name = "GFX_select_date_2025"
+		texturefile = "gfx/interface/select_date_2025.dds"
 	}
 	
 	spriteType = {

@@ -9,7 +9,7 @@ capital = 31
 	
 	set_politics = {
 		ruling_party = neutrality
-		last_election = "2020.1.1"
+		last_election = "2021.1.1"
 		election_frequency = 48
 		elections_allowed = yes
 	}
@@ -24,7 +24,7 @@ capital = 31
 	create_country_leader = {
 		name = "Mukut Ginjupalli"
 		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
+		picture = "gfx//leaders//KUT//portrait_KUT_mukut_ginjupalli.dds"
 		ideology = despotism
 		traits = {
 			#
