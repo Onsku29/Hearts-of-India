@@ -30,3 +30,8 @@ music = {
 	name = "sare_jahan_se_achha"
 	file = "sare_jahan_se_achha.ogg"
 }
+music = {
+	name = "kunjipatal_anthem"
+	file = "kunjipatal_anthem.ogg"
+	volume = 4.0
+}

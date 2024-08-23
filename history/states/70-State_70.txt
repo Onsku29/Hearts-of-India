@@ -20,6 +20,6 @@ state={
 		steel=23
 	}
 	buildings_max_level_factor=1.000
-        manpower=40000000
+        manpower=15000000
         state_category = megalopolis
 }

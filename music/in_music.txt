@@ -2,9 +2,7 @@ music_station = "fm_india"
 music = {
 	song = "maintheme"
 	chance = {
-		modifier = {
-			factor = 0.5
-		}		
+		factor = 0.5	
 	}
 }
 music = {
@@ -49,6 +47,7 @@ music = {
 		factor = 1
 		modifier = {
 			factor = 100
+			has_war = yes
 		}
 	}
 }
@@ -67,6 +66,17 @@ music = {
 		factor = 1
 		modifier = {
 			factor = 100
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "kunjipatal_anthem"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+			tag = KUN
 		}
 	}
 }
