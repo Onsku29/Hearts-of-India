@@ -1,6 +1,6 @@
 focus_tree = {
-    id = mahanta
-    continuous_focus_position = { x = 600 y = 1050 }
+	id = mahanta
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,4 +8,294 @@ focus_tree = {
 			tag = MAH
 		}
 	}
+	#Construct new infastructure
+	focus = {
+		id = MAH_construct_new_infastructure
+		icon = GFX_MAH_construct_new_infastructure-645938
+		x = 0
+		y = 2
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MAH_move_the_mighty_economy_in_to_a_mighty_gear  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			29= {
+			    if = {
+			        limit = { is_controlled_by = ROOT }
+			        add_building_construction = {
+			            type = infrastructure
+			            level = 5
+			            instant_build = yes
+			        }
+			    }
+			}
+			18 = {
+			    if = {
+			        limit = { is_controlled_by = ROOT }
+			        add_building_construction = {
+			            type = infrastructure
+			            level = 5
+			            instant_build = yes
+			        }
+			    }
+			}
+			36 = {
+			    if = {
+			        limit = { is_controlled_by = ROOT }
+			        add_building_construction = {
+			            type = infrastructure
+			            level = 5
+			            instant_build = yes
+			        }
+			    }
+			}
+			38 = {
+			    if = {
+			        limit = { is_controlled_by = ROOT }
+			        add_building_construction = {
+			            type = infrastructure
+			            level = 5
+			            instant_build = yes
+			        }
+			    }
+			}
+		}
+	}
+
+	#Mobilize the Mahant people
+	focus = {
+		id = MAH_mobilize_the_mahant_people
+		icon = GFX_focus_generic_manpower
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = MAH_move_the_mighty_economy_in_to_a_mighty_gear  } prerequisite = { focus = MAH_remove_corruption_from_the_army  }
+		ai_will_do = { factor = 200 }
+		available = {
+			threat > 0.1
+			
+			
+		}
+		completion_reward = {
+			add_ideas = tot_economic_mobilisation 
+			add_ideas = extensive_conscription 
+			
+			
+			
+		}
+	}
+
+	#Incorporate Kurukutti
+	focus = {
+		id = MAH_incorporate_kurukutti
+		icon = GFX_MAH_incorporate_kurukutti-645862
+		x = 2
+		y = 0
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		ai_will_do = { factor = 100 }
+		available = {
+			has_wargoal_against = {
+			    target = KUT
+			    type = take_state
+			}
+			
+			
+			
+		}
+		will_lead_to_war_with = KUT
+	}
+
+	#Move the Mighty Economy in to a Mighty gear
+	focus = {
+		id = MAH_move_the_mighty_economy_in_to_a_mighty_gear
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 1
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = MAH_incorporate_kurukutti  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			}
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			}
+			
+			
+		}
+	}
+
+	#Root out Corruption in the Government
+	focus = {
+		id = MAH_root_out_corruption_in_the_government
+		icon = GFX_MAH_root_out_corruption_in_the_government-645454
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MAH_incorporate_kurukutti  }
+		ai_will_do = { factor = 20 }
+	}
+
+	#Remove corruption from the army
+	focus = {
+		id = MAH_remove_corruption_from_the_army
+		icon = GFX_MAH_remove_corruption_from_the_army-262098
+		x = 3
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MAH_root_out_corruption_in_the_government  }
+		ai_will_do = { factor = 20 }
+	}
+
+	#The Mahant Navy Reform
+	focus = {
+		id = MAH_the_mahant_navy_reform
+		icon = GFX_MAH_the_mahant_navy_reform-645974
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		ai_will_do = { factor = 10 }
+		available = {
+			threat > 0.05
+			
+			
+		}
+		completion_reward = {
+			navy_experience = 100
+			
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = dockyard
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+			type = dockyard
+			level = 2
+			instant_build = yes
+			}
+			}
+			
+		}
+	}
+
+	#New Wave of Mahant shipbuilding
+	focus = {
+		id = MAH_new_wave_of_mahant_shipbuilding
+		icon = GFX_MAH_new_wave_of_mahant_shipbuilding-404
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MAH_the_mahant_navy_reform  }
+		available = {
+			num_of_naval_factories > 10
+			
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 3
+			    uses = 3
+			    category = mio_cat_tech_all_screen_ship_and_modules
+			}
+			
+			
+			
+			navy_experience = 100
+			
+			
+		}
+	}
+
+	#Expand the Air wing of the MALSF
+	focus = {
+		id = MAH_expand_the_air_wing_of_the_malsf
+		icon = GFX_MAH_expand_the_air_wing_of_the_malsf-645948
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = MAH_remove_corruption_from_the_army  }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 3
+			    uses = 3
+			    category = mio_cat_all_medium_aircraft_and_modules
+			}
+			
+			
+			
+		}
+		select_effect = {
+air_experience = 100
+
+}
+	}
+
+	#New Spirit of the MALSF
+	focus = {
+		id = MAH_new_spirit_of_the_malsf
+		icon = GFX_MAH_new_spirit_of_the_malsf-645581
+		x = 5
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MAH_remove_corruption_from_the_army  } prerequisite = { focus = MAH_new_wave_of_mahant_shipbuilding  }
+	}
+
 }
