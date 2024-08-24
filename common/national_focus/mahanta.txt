@@ -133,6 +133,9 @@ focus_tree = {
 			date > 2025.12.12
 		}
 		prerequisite = { focus = MAH_divided_leadership }
+		completion_reward = {
+			#tästä alkaa sit jossain kohtaa sisällissota
+		}
 	}
 	focus = {
 		id = MAH_side_with_chettur
