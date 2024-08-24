@@ -412,15 +412,18 @@ diff_very_hard_player = {
 
 diff_very_easy_ai = {
 	peace_score_ratio_transferred_to_players = 0.25
+	army_speed_factor = 4
 }
 
 diff_easy_ai = {
 	no_supply_grace = 24
 	peace_score_ratio_transferred_to_players = 0.1
+	army_speed_factor = 4
 }
 
 diff_normal_ai = {
 	no_supply_grace = 36
+	army_speed_factor = 4
 }
 
 diff_hard_ai = {
@@ -428,6 +431,7 @@ diff_hard_ai = {
 	air_fuel_consumption_factor = -0.25
  	navy_fuel_consumption_factor = -0.25
 	no_supply_grace = 48
+	army_speed_factor = 4
 }
 
 diff_very_hard_ai = {
@@ -435,6 +439,7 @@ diff_very_hard_ai = {
 	air_fuel_consumption_factor = -0.5
  	navy_fuel_consumption_factor = -0.5
 	no_supply_grace = 72
+	army_speed_factor = 4
 }
 
 
@@ -445,6 +450,7 @@ diff_strong_ai_generic = {
 	supply_consumption_factor = -0.25
 	army_morale_factor = 0.15
 	land_reinforce_rate = 0.02
+	
 
 	# defensivness
 	army_core_attack_factor = 0.15
