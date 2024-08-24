@@ -6,7 +6,7 @@ capital = 2
 	}
 	
 	set_convoys = 20
-
+	set_oob="KHG.txt"
 	set_politics = {
 		ruling_party = fascism
 		last_election = "2021.1.1"

@@ -20,7 +20,7 @@ capital = 30
 		communism = 4
 		neutrality = 6
 	}
-	
+	set_oob="SAS.txt"
 	create_country_leader = {
 		name = "Pannathorn Sasiprapa"
 		desc = ""

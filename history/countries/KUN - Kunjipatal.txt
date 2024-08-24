@@ -7,7 +7,7 @@ capital = 14
 	add_ideas = {
 		KUN_shell_shocked_spectator_of_the_corporate_war
 	}
-	
+	oob="KUN"
 	set_convoys = 5
 	
 	set_politics = {

@@ -20,7 +20,7 @@ capital = 45
 		communism = 5
 		neutrality = 80
 	}
-	
+	oob="PLE"
 	create_country_leader = {
 		name = "Rmadurapperuma Rajapaska"
 		desc = ""
