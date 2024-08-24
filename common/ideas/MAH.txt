@@ -1,0 +1,97 @@
+ideas = {
+
+	country = {
+		MAH_deep_rooted_corruption1 = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_fra_devalue_the_franc
+			on_remove = {
+				add__timed_idea = {
+					idea = MAH_deep_rooted_corruption2
+					days = 365
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				surrender_limit = -0.1
+				political_power_factor = -0.15
+			}
+		}
+				MAH_deep_rooted_corruption1 = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_fra_devalue_the_franc
+			on_remove = {
+				add_ideas = MAH_deep_rooted_corruption2
+			}
+
+			modifier = {
+				weekly_manpower = -1000
+				consumer_goods_factor = 0.1
+				surrender_limit = -0.8
+				stability_weekly = -0.005
+			}
+		}
+		MAH_goverment_cleaned = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			picture = generic_democratic_opposition
+			modifier = {
+				political_power_factor = -0.10
+				political_advisor_cost_factor = 0.25
+			}
+		}
+		MAH_army_cleaned = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = GFX_focus_fra_devalue_the_franc
+			modifier = {
+				unit_leader_as_advisor_cp_cost_factor = 0.15
+				command_power_gain_mult = -0.25
+				promote_cost_factor = 0.25
+				army_leader_cost_factor = 0.25
+				reassignment_duration_factor = 0.25
+				supply_consumption_factor = 0.1
+				land_doctrine_cost_factor = 0.2
+			}
+		}
+		MAH_spirit_of_the_malsf = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = jap_interservice_rivalry_navy_strengthened
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+		}
+	}
+}

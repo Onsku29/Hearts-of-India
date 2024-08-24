@@ -83,10 +83,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = tot_economic_mobilisation 
-			add_ideas = extensive_conscription 
-			
-			
-			
+			add_ideas = extensive_conscription 	
 		}
 	}
 
@@ -101,14 +98,11 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		ai_will_do = { factor = 100 }
-		available = {
-			has_wargoal_against = {
+		completion_reward = {
+			create_wargoal = {
 			    target = KUT
 			    type = take_state
-			}
-			
-			
-			
+			}	
 		}
 		will_lead_to_war_with = KUT
 	}
@@ -173,6 +167,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = MAH_incorporate_kurukutti  }
 		ai_will_do = { factor = 20 }
+		completion_reward = {
+			add_ideas = {MAH_goverment_cleaned}
+			remove_ideas = {MAH_deep_rooted_corruption1}
+		}
 	}
 
 	#Remove corruption from the army
@@ -187,6 +185,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = MAH_root_out_corruption_in_the_government  }
 		ai_will_do = { factor = 20 }
+		completion_reward = {
+			add_ideas = {MAH_army_cleaned}
+		}
 	}
 
 	#The Mahant Navy Reform
@@ -296,6 +297,9 @@ air_experience = 100
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = MAH_remove_corruption_from_the_army  } prerequisite = { focus = MAH_new_wave_of_mahant_shipbuilding  }
+		completion_reward = {
+			add_ideas = {MAH_spirit_of_the_malsf}
+		}
 	}
 
 }
