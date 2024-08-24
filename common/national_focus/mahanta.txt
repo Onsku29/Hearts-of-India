@@ -31,7 +31,7 @@ focus_tree = {
 			        }
 			    }
 			}
-			18 = {
+			40 = {
 			    if = {
 			        limit = { is_controlled_by = ROOT }
 			        add_building_construction = {
