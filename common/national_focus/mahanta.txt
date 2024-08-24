@@ -1,6 +1,6 @@
 focus_tree = {
 	id = mahanta
-	continuous_focus_position = { x = -40 y = 1050 } 
+	continuous_focus_position = { x = 150 y = 1920 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -12,8 +12,8 @@ focus_tree = {
 	focus = {
 		id = MAH_construct_new_infastructure
 		icon = GFX_MAH_construct_new_infastructure-645938
-		x = 0
-		y = 2
+		x = 3
+		y = 6
 		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -68,13 +68,13 @@ focus_tree = {
 	focus = {
 		id = MAH_mobilize_the_mahant_people
 		icon = GFX_focus_generic_manpower
-		x = 2
-		y = 3
+		x = 5
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = MAH_move_the_mighty_economy_in_to_a_mighty_gear  } prerequisite = { focus = MAH_remove_corruption_from_the_army  }
+		prerequisite = { focus = MAH_move_the_mighty_economy_in_to_a_mighty_gear  }
 		ai_will_do = { factor = 200 }
 		available = {
 			threat > 0.1
@@ -87,37 +87,94 @@ focus_tree = {
 		}
 	}
 
-	#Incorporate Kurukutti
+	#Incorporate Kurukutti (ei toiminu koska tää tulee eventeissä)
 	focus = {
-		id = MAH_incorporate_kurukutti
-		icon = GFX_MAH_incorporate_kurukutti-645862
-		x = 2
+		id = MAH_organise_power
+		icon = GFX_MAH_organise_power-645862
+		x = 4
 		y = 0
 		cost = 3
 		search_filters = {
-			FOCUS_FILTER_ANNEXATION
+			FOCUS_FILTER_POLITICAL
 		}
 		ai_will_do = { factor = 100 }
 		completion_reward = {
-			create_wargoal = {
-			    target = KUT
-			    type = take_state
-			}	
+			add_political_power = 200	
 		}
-		will_lead_to_war_with = KUT
+	}
+
+	focus = {
+		id = MAH_divided_leadership
+		icon = GFX_MAH_divided_leadership
+		x = 4
+		y = 1
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = MAH_organise_power }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_war_support = 0.2
+		}
+	}
+
+	focus = {
+		id = MAH_side_with_abhinav
+		icon = MAH_side_with_abhinav
+		x = 3
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 50 }
+		available = {
+			date > 2025.12.12
+		}
+		prerequisite = { focus = MAH_divided_leadership }
+	}
+	focus = {
+		id = MAH_side_with_chettur
+		icon = MAH_side_with_chettur
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = { factor = 50 }
+		available = {
+			date > 2025.12.12
+		}
+		prerequisite = { focus = MAH_divided_leadership }
+	}
+	focus = {
+		id = MAH_exile_abhinav
+		icon = GFX_MAH_exile_abhinav
+		x = 6
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {factor = 100}
+		prerequisite = {focus = MAH_side_with_chettur}
 	}
 
 	#Move the Mighty Economy in to a Mighty gear
 	focus = {
 		id = MAH_move_the_mighty_economy_in_to_a_mighty_gear
 		icon = GFX_goal_continuous_non_factory_construct
-		x = 1
-		y = 1
+		x = 4
+		y = 5
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = MAH_incorporate_kurukutti  }
+		prerequisite = {
+			focus = MAH_remove_corruption_from_the_army
+		}
 		completion_reward = {
 			random_owned_controlled_state = {
 			limit = {
@@ -136,22 +193,20 @@ focus_tree = {
 			}
 			
 			random_owned_controlled_state = {
-			limit = {
-			free_building_slots = {
-			building = industrial_complex
-			size > 0
-			include_locked = yes
+				limit = {
+					free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
 			}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
 			}
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-			type = industrial_complex
-			level = 2
-			instant_build = yes
-			}
-			}
-			
-			
 		}
 	}
 
@@ -159,13 +214,13 @@ focus_tree = {
 	focus = {
 		id = MAH_root_out_corruption_in_the_government
 		icon = GFX_MAH_root_out_corruption_in_the_government-645454
-		x = 3
-		y = 1
+		x = 4
+		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = MAH_incorporate_kurukutti  }
+		prerequisite = { focus = MAH_side_with_chettur focus = MAH_side_with_abhinav }
 		ai_will_do = { factor = 20 }
 		completion_reward = {
 			add_ideas = {MAH_goverment_cleaned}
@@ -177,8 +232,8 @@ focus_tree = {
 	focus = {
 		id = MAH_remove_corruption_from_the_army
 		icon = GFX_MAH_remove_corruption_from_the_army-262098
-		x = 3
-		y = 2
+		x = 4
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -194,7 +249,7 @@ focus_tree = {
 	focus = {
 		id = MAH_the_mahant_navy_reform
 		icon = GFX_MAH_the_mahant_navy_reform-645974
-		x = 5
+		x = 10
 		y = 0
 		cost = 10
 		search_filters = {
@@ -232,7 +287,7 @@ focus_tree = {
 	focus = {
 		id = MAH_new_wave_of_mahant_shipbuilding
 		icon = GFX_MAH_new_wave_of_mahant_shipbuilding-404
-		x = 5
+		x = 10
 		y = 2
 		cost = 10
 		search_filters = {
@@ -263,8 +318,8 @@ focus_tree = {
 	focus = {
 		id = MAH_expand_the_air_wing_of_the_malsf
 		icon = GFX_MAH_expand_the_air_wing_of_the_malsf-645948
-		x = 3
-		y = 3
+		x = 2
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -276,22 +331,18 @@ focus_tree = {
 			    uses = 3
 			    category = mio_cat_all_medium_aircraft_and_modules
 			}
-			
-			
-			
 		}
 		select_effect = {
-air_experience = 100
-
-}
+		air_experience = 100
+		}
 	}
 
 	#New Spirit of the MALSF
 	focus = {
 		id = MAH_new_spirit_of_the_malsf
 		icon = GFX_MAH_new_spirit_of_the_malsf-645581
-		x = 5
-		y = 3
+		x = 10
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -301,5 +352,5 @@ air_experience = 100
 			add_ideas = {MAH_spirit_of_the_malsf}
 		}
 	}
-
+#
 }
