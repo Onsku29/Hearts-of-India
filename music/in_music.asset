@@ -21,6 +21,7 @@ music = {
 music = {
 	name = "qadam_qadam_badhaaye_ja"
 	file = "qadam_qadam_badhaaye_ja.ogg"
+	volume = 2.0
 }
 music = {
 	name = "qadam_qadam_badhaaye_ja_instrumental"
@@ -33,5 +34,10 @@ music = {
 music = {
 	name = "kunjipatal_anthem"
 	file = "kunjipatal_anthem.ogg"
+	volume = 4.0
+}
+music = {
+	name = "datapum_army_march"
+	file = "datapum_army_march.ogg"
 	volume = 4.0
 }
