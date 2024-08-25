@@ -38,17 +38,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_MAH_incorporate_kurukutti-645862"
-		texturefile = "gfx/interface/goals/GFX_MAH_incorporate_kurukutti-645862.dds"
+		name = "GFX_MAH_divided_leadership"
+		texturefile = "gfx/interface/goals/GFX_MAH_divided_leadership.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_MAH_incorporate_kurukutti-645862_shine"
-		texturefile = "gfx/interface/goals/GFX_MAH_incorporate_kurukutti-645862.dds"
+		name = "GFX_MAH_divided_leadership_shine"
+		texturefile = "gfx/interface/goals/GFX_MAH_divided_leadership.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_MAH_incorporate_kurukutti-645862.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_divided_leadership.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -60,7 +60,159 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_MAH_incorporate_kurukutti-645862.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_divided_leadership.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_MAH_side_with_abhinav"
+		texturefile = "gfx/interface/goals/GFX_MAH_side_with_abhinav.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_MAH_side_with_abhinav_shine"
+		texturefile = "gfx/interface/goals/GFX_MAH_side_with_abhinav.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_side_with_abhinav.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_side_with_abhinav.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_MAH_side_with_chettur"
+		texturefile = "gfx/interface/goals/GFX_MAH_side_with_chettur.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_MAH_side_with_chettur_shine"
+		texturefile = "gfx/interface/goals/GFX_MAH_side_with_chettur.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_side_with_chettur.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_side_with_chettur.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_MAH_exile_abhinav"
+		texturefile = "gfx/interface/goals/GFX_MAH_exile_abhinav.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_MAH_exile_abhinav_shine"
+		texturefile = "gfx/interface/goals/GFX_MAH_exile_abhinav.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_exile_abhinav.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_exile_abhinav.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_MAH_organise_power-645862"
+		texturefile = "gfx/interface/goals/GFX_MAH_organise_power-645862.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_MAH_organise_power-645862_shine"
+		texturefile = "gfx/interface/goals/GFX_MAH_organise_power-645862.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_organise_power-645862.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_MAH_organise_power-645862.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

@@ -110,7 +110,7 @@ capital = 38
 	set_convoys = 20
 	
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "2021.1.1"
 		election_frequency = 48
 		elections_allowed = yes
@@ -118,16 +118,16 @@ capital = 38
 	
 	set_popularities = {
 		democratic = 5
-		fascism = 80
+		fascism = 44
 		communism = 5
-		neutrality = 10
+		neutrality = 46
 	}
 	
 	create_country_leader = {
 		name = "Abhinav Mahanta"
 		desc = ""
 		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
-		ideology = nazism
+		ideology = despotism
 		traits = {
 			#
 		}

@@ -80,3 +80,14 @@ music = {
 		}
 	}
 }
+music = {
+	song = "datapum_army_march"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+			tag = DAT
+			has_war = yes
+		}
+	}
+}
