@@ -10,6 +10,10 @@ state={
 		victory_points = { 336 5 }
 		victory_points = { 1072 5 }
 		add_core_of = CHG
+		buildings = {
+			industrial_complex = 5
+			arms_factory = 4
+		}
 	}
 	resources={
 		rubber=25

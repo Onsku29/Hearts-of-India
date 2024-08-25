@@ -14,6 +14,14 @@ state={
 		victory_points = { 46 10 }
 		victory_points = { 1267 15 }
 		add_core_of = CHG
+		buildings = {
+			industrial_complex = 15
+			dockyard = 2
+			arms_factory = 4
+			384 = {
+				naval_base = 1
+			}
+		}
 	}
 	resources={
 		steel=44
