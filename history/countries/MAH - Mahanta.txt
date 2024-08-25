@@ -106,6 +106,9 @@ capital = 38
 	}
 	add_ideas = {
 		MAH_deep_rooted_corruption1
+		undisturbed_isolation
+		free_trade
+		disarmed_nation
 	}
 	set_convoys = 20
 	

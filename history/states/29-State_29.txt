@@ -12,6 +12,12 @@ state={
 		victory_points = { 534 2 }
 		victory_points = { 231 4 }
 		add_core_of = MAH
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 16
+			dockyard = 2
+			infrastructure = 2
+		}
 	}
 	resources={
 		steel=42
@@ -21,5 +27,5 @@ state={
 	}
 	buildings_max_level_factor=1.000
         manpower=20000000
-        state_category = megalopolis
+        state_category = mahanta_homeland
 }

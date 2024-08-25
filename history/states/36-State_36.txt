@@ -8,11 +8,17 @@ state={
 		owner = MAH
 		victory_points = { 1060 5 }
 		add_core_of = MAH
+		buildings = {
+			arms_factory = 3
+			dockyard = 3
+			industrial_complex = 6
+			infrastructure = 1
+		}
 	}
 	resources={
 		aluminium=34
 	}
 	buildings_max_level_factor=1.000
         manpower=4000000
-        state_category = city
+        state_category = megalopolis
 }
