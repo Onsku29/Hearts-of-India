@@ -4,7 +4,7 @@ capital = 10
 	set_technology = {
 		infantry_weapons = 1
 	}
-	set_oob="BHA.txt"
+	set_oob="BHA"
 	
 	set_convoys = 20
 

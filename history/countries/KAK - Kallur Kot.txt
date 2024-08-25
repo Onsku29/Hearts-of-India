@@ -6,7 +6,7 @@ capital = 48
 	}
 	
 	set_convoys = 20
-	set_oob="KAK.txt"
+	set_oob="KAK"
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "2021.1.1"

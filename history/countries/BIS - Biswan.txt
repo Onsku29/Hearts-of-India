@@ -4,7 +4,7 @@ capital = 58
 	set_technology = {
 		infantry_weapons = 1
 	}
-	set_oob="BIS.txt"
+	set_oob="BIS"
 	set_convoys = 20
 
 	set_politics = {

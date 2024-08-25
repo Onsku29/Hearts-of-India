@@ -1,7 +1,7 @@
 capital = 65
 
 1939.1.1 = {
-	oob="KWA.txt"
+	oob="KWA"
 	set_technology = {
 		infantry_weapons = 1
 	}

@@ -6,7 +6,7 @@ capital = 8
 	}
 	
 	set_convoys = 20
-	set_oob="FEZ.txt"
+	set_oob="FEZ"
 	set_politics = {
 		ruling_party = democratic
 		last_election = "2021.1.1"
