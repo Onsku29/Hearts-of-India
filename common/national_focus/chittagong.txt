@@ -1,0 +1,137 @@
+focus_tree = {
+    id = chittagong
+    continuous_focus_position = { x = 600 y = 1050}
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CHG
+        }
+    }
+    #Fund road reconstruction
+    focus = {
+        id = CHG_road_reconstruction
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 2
+        y = 0
+        cost = 10
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+        ai_will_do = { factor = 50 }
+        completion_reward = {
+            12 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+            20 = {
+                if = {
+                    limit = { is_controlled_by = ROOT }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+        }
+    }
+
+    #Mizoram factory park
+    focus = {
+        id = CHG_mizoram_factories
+        icon = GFX_goal_generic_construct_civ_factory
+        prerequisite = { focus = CHG_road_reconstruction }
+        x = 0
+        y = 2
+        cost = 10
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+        ai_will_do = { factor = 50 }
+        completion_reward = {
+            20 = {
+                if = {
+                    limit = {is_controlled_by = ROOT}
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 5
+                        instant_build = yes
+                    }
+                }
+            }
+        }
+    }
+
+    #Mizoram military mantle
+    focus = {
+        id = CHG_mizoram_military
+        icon = GFX_CHG_mizoram_mantle
+        prerequisite = { focus = CHG_mizoram_factories }
+        x = 0
+        y = 4
+        cost = 20
+        search_filters = {FOCUS_FILTER_INDUSTRY}
+        ai_will_do = { factor = 50 }
+        completion_reward = {
+            20 = {
+                if = {
+                    limit = {is_controlled_by = ROOT}
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = dockyard
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = nuclear_reactor
+                        level = 1
+                        province = 966
+                        instant_build = yes
+                    }
+                }
+            }
+        }
+    }
+
+    #Jharkhand supply
+    focus = {
+        id = CHG_jharkhand_express
+        icon = GFX_focus_generic_railroad
+        prerequisite = {focus = CHG_road_reconstruction }
+        x = 4
+        y = 2
+        cost = 15
+        search_filters = {
+            FOCUS_FILTER_INDUSTRY
+        }
+        ai_will_do = { factor = 50 }
+        completion_reward = {
+            16 = {
+                add_building_construction = {
+                    type = supply_node
+                    level = 1
+                    province = 332
+                    instant_build = yes
+                }
+            }
+
+            build_railway = {
+                level = 2
+                build_only_on_allied = yes
+                start_province = 123
+                target_province = 332
+            }
+        }
+    }
+}

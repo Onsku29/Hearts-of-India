@@ -16,10 +16,17 @@ state={
 		add_core_of = CHG
 		buildings = {
 			industrial_complex = 15
+			infrastructure = 2
 			dockyard = 2
 			arms_factory = 4
 			384 = {
 				naval_base = 1
+			}
+			359 = {
+				air_base = 2
+			}
+			1190 = {
+				air_base = 2
 			}
 		}
 	}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_CHG_mizoram_mantle"
+        texturefile = "gfx/interface/goals/GFX_CHG_mizoram_mantle.dds"
+    }
+}
