@@ -6,10 +6,12 @@ MAH_corporatism_on_the_rise = {
 
 		visible = {
 			OR = {
+				original_tag = MAH
 				has_country_flag = preparation_for_fascist_civil_war
 				has_country_flag = open_up_political_discourse_corporatism
 			}
 			OR = {
+				original_tag = MAH
 				has_country_flag = MAH_corporatism_on_the_rise
 			}
 			NOT = { has_government = fascism }
@@ -44,10 +46,12 @@ MAH_corporatism_on_the_rise = {
 
 		visible = {
 			OR = {
+				original_tag = MAH
 				has_country_flag = preparation_for_fascist_civil_war
 				has_country_flag = open_up_political_discourse_corporatism
 			}
 			OR = {
+				original_tag = MAH
 				has_country_flag = MAH_corporatism_on_the_rise
 			}
 			NOT = { has_government = fascism }
@@ -80,13 +84,21 @@ MAH_corporatism_on_the_rise = {
 	a_civil_war_breaks_out = {
 		icon = generic_ignite_civil_war
 		visible = {
-        has_country_flag = MAH_corporatism_on_the_rise
+			original_tag = MAH
+        	has_country_flag = MAH_corporatism_on_the_rise
 		}
 		available = {
 			always = no
+			original_tag = MAH
 		}
 		cancel_trigger = {
-			has_war = yes
+			OR = {
+				has_war = yes
+				NOT = {
+					original_tag = MAH
+				}
+			}
+			
 		}
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = yes
@@ -220,6 +232,7 @@ MAH_corporatism_on_the_rise = {
 		visible = {
 			has_government = fascism
 			has_country_flag = won_ideology_civil_war
+			original_tag = MAH
 		}
 
 		fire_only_once = yes
@@ -260,6 +273,7 @@ MAH_corporatism_on_the_rise = {
 			NOT = { has_country_flag = open_up_political_discourse_corporatism }
 			NOT = { has_government = fascism }
 			check_has_focus_tree_to_switch_to_fascism = yes
+			original_tag = MAH
 		}
 		
 		remove_trigger = {
@@ -291,12 +305,14 @@ MAH_corporatism_on_the_rise = {
 			OR = {
 				has_country_flag = MAH_corporatism_on_the_rise
 			}
+			original_tag = MAH
 		}
 
 		visible = {
 			has_country_flag = open_up_political_discourse_corporatism
 			NOT = { has_government = fascism }
 			check_has_focus_tree_to_switch_to_fascism = yes
+			original_tag = MAH
 		}
 		
 		remove_trigger = {
@@ -354,6 +370,7 @@ MAH_corporatism_on_the_rise = {
 			OR = {
 				has_country_flag = MAH_corporatism_on_the_rise
 			}
+			original_tag = MAH
 		}
 
 		visible = {

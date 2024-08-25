@@ -82,6 +82,231 @@ units = {
 		division_template = "Mighty-Men"
 		start_experience_factor = 0.3
 	}
+	    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 556
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 423
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 422
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 558
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 723
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+	    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 556
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 740
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 534
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 429
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 607
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+	    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 556
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 193
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 422
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 558
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 66
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+	    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 556
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 4
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 752
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 468
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 1054
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+	    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 556
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 423
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 422
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 558
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 1054
+		division_template = "Mighty-Men"
+		start_experience_factor = 0.3
+	}
     division= {	
 		division_name = {
 				is_name_ordered = yes
