@@ -1,5 +1,5 @@
 state_categories={
-	megalopolis = {
+	mahanta_homeland = {
 		local_building_slots = 20
 	
 			color = { 255 240 240 }

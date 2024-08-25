@@ -1,0 +1,9 @@
+MAH_corporatism_on_the_rise = {
+    expand_civil_fascism_support = {}
+    expand_civil_neutrality_support = {}
+    a_civil_war_breaks_out = {}
+    rebuild_the_nation_fascism = {}
+    open_up_political_discourse_fascism = {}
+    discredit_government_fascism = {}
+    strenghten_government = {}
+}

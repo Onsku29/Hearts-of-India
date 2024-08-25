@@ -11,7 +11,7 @@ ideas = {
 			}
 			picture = GFX_focus_fra_devalue_the_franc
 			on_remove = {
-				add__timed_idea = {
+				add_timed_idea = {
 					idea = MAH_deep_rooted_corruption2
 					days = 365
 				}

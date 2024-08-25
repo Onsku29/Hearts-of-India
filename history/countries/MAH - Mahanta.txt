@@ -3,6 +3,7 @@ capital = 38
 1939.1.1 = {
 	oob="MAH"
 	starting_train_buffer = 4
+	set_country_flag = MAH_corporatism_on_the_rise
 	set_technology = {
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -91,9 +92,6 @@ capital = 38
 			basic_fire_control_system = 1
 			basic_dp_light_battery = 1
 		}
-		add_ideas = MTG_naval_treaty_adherent
-		set_global_flag = MTG_second_london_conference
-		set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 	}
 
 	if = {
