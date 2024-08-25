@@ -124,15 +124,8 @@ capital = 38
 		neutrality = 46
 	}
 	
-	create_country_leader = {
-		name = "Abhinav Mahanta"
-		desc = ""
-		picture = "gfx//leaders//MAH//portrait_MAH_abhinav_mahanta.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = MAH_abhinav_mahanta
+	recruit_character = MAH_chettur_bhave
 
 	create_faction = "Peace East India League"
 	add_to_faction = MAH

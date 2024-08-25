@@ -108,7 +108,7 @@ focus_tree = {
 		icon = GFX_MAH_divided_leadership
 		x = 4
 		y = 1
-		cost = 4
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -132,9 +132,19 @@ focus_tree = {
 		available = {
 			date > 2025.12.12
 		}
+		mutually_exclusive = { focus = MAH_side_with_chettur }
 		prerequisite = { focus = MAH_divided_leadership }
 		completion_reward = {
-			#tästä alkaa sit jossain kohtaa sisällissota
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = fascism
+				size = 0.0
+				capital = 64
+				states = {
+					18 64
+				}
+			}
+			set_country_flag = ideology_civil_war
 		}
 	}
 	focus = {
@@ -146,9 +156,22 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		mutually_exclusive = { focus = MAH_side_with_abhinav }
 		ai_will_do = { factor = 50 }
 		available = {
 			date > 2025.12.12
+		}
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = neutrality
+				size = 0.0
+				capital = 38
+				states = {
+					29 36 38 40
+				}
+			}
+			set_country_flag = ideology_civil_war
 		}
 		prerequisite = { focus = MAH_divided_leadership }
 	}

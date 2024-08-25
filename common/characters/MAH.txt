@@ -1,0 +1,30 @@
+characters = {
+    MAH_abhinav_mahanta = {
+        name = "Abhinav Mahanta"
+        portraits = {
+            civilian = {
+                large="gfx/leaders/MAH/portrait_MAH_abhinav_mahanta.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {
+                dictator
+            }
+        }
+    }
+    MAH_chettur_bhave = {
+        name = "Chettur Bhave"
+        portraits = {
+            civilian = {
+                large="gfx/leaders/MAH/portrait_MAH_chettur_bhave.dds"
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            traits = {
+                
+            }
+        }
+    }
+}

@@ -10,12 +10,12 @@ characters = {
         }
 
         field_marshal = {
-		traits = {media_personality, brilliant_strategist}
-		skill = 6
-		attack_skill = 5
-		defense_skill = 7
-		planning_skill = 6
-		logistics_skill = 5
+		    traits = {media_personality, brilliant_strategist}
+		    skill = 6
+		    attack_skill = 5
+		    defense_skill = 7
+		    planning_skill = 6
+		    logistics_skill = 5
 	    }
 
         advisor = {

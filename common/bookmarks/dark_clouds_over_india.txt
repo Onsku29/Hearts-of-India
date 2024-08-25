@@ -24,10 +24,22 @@ bookmarks = {
 			ideology = fascism
 			available = {  }
 		}
+
+		"BHA"={
+			history = "BHA_HISTORY"
+			ideology = democratic
+			available = {  }
+		}
 		
 		"KUN"={
 			history = "KUN_HISTORY"
 			ideology = fascism
+			available = {  }
+		}
+
+		"BIS"={
+			history = "BIS_HISTORY"
+			ideology = communism
 			available = {  }
 		}
 		
