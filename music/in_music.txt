@@ -2,7 +2,7 @@ music_station = "fm_india"
 music = {
 	song = "maintheme"
 	chance = {
-		factor = 0.5	
+		factor = 1.5	
 	}
 }
 music = {
