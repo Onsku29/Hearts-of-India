@@ -41,3 +41,8 @@ music = {
 	file = "datapum_army_march.ogg"
 	volume = 4.0
 }
+music = {
+	name = "the_war_ends"
+	file = "the_war_ends.ogg"
+	volume = 4.0
+}

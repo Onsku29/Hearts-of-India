@@ -91,3 +91,14 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "the_war_ends"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+			has_war = no
+		}
+	}
+}
