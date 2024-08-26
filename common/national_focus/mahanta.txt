@@ -185,6 +185,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			has_country_flag = won_ideology_civil_war
+		}
+		completion_reward = {
+			add_stability = 0.10
+		}
 		ai_will_do = {factor = 100}
 		prerequisite = {focus = MAH_side_with_chettur}
 	}
