@@ -619,6 +619,11 @@
  DAT_infantry_equipment_2_short:0 "DPAM-1"
  DAT_infantry_equipment_3:0 "DPAM-2 Assault Rifle"
  DAT_infantry_equipment_3_short:0 "DPAM-2"
+ DAT_super_heavy_tank_equipment:0 "Tactical Camouflage Barn Megatank"
+ DAT_super_heavy_tank_equipment_1:0 "Tactical Camouflage Barn Megatank"
+ DAT_super_heavy_tank_equipment_1_short:0 "Tactical Megatank"
+ DAT_train_equipment_0:0 "FTE Bhusawal-14"
+ DAT_train_equipment_1:0 "AFTE Paradgaon-26"
 
  EQUIPMENT_DESCRIPTION: "$NAME$"
  
