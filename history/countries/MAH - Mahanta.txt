@@ -121,7 +121,8 @@ capital = 38
 		democratic = 5
 		fascism = 44
 		communism = 5
-		neutrality = 46
+		neutrality = 5
+		neo_vyavasikism = 41  # Neo-Vyavasikism popularity set to 41%
 	}
 	
 	recruit_character = MAH_abhinav_mahanta

@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ideology_neo_vyavasikism_group"
+        texturefile = "gfx/interface/ideologies/neo_vyavasikism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_neo_vyavasikism_type"
+        texturefile = "gfx/interface/ideologies/neo_vyavasikism_type.dds"
+    }
+}

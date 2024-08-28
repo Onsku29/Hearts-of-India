@@ -1,0 +1,23 @@
+generic_neo_vyavasikism_advisor = {
+    allowed = {
+        NOT = {
+            has_idea = generic_neo_vyavasikism_advisor
+        }
+    }
+    traits = { neo_vyavasikism_booster }
+    available = {
+        if = {
+            limit = { has_dlc = "Man the Guns" }
+            NOT = { has_autonomy_state = autonomy_supervised_state }
+        }
+    }
+    cost = 150
+    ai_will_do = {
+        factor = 1
+    }
+    do_effect = {
+        NOT = {
+            has_government = neo_vyavasikism
+        }
+    }
+}

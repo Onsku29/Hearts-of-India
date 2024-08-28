@@ -1,0 +1,9 @@
+neo_vyavasikism_booster = {
+    random = no
+    sprite = 13
+    neo_vyavasikism_drift = 0.1
+
+    ai_will_do = {
+        factor = 0
+    }
+}
