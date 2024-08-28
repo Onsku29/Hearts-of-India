@@ -15,7 +15,7 @@ bookmarks = {
 
 		"MAH"={
 			history = "MAH_HISTORY"
-			ideology = fascism
+			ideology = neutrality
 			available = {  }
 		}
 
