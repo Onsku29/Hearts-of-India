@@ -139,7 +139,7 @@ focus_tree = {
 			start_civil_war = {
 				ruling_party = neutrality
 				ideology = fascism
-				size = 0.4
+				size = 0.35
 				capital = 64
 				states = {
 					18 64
@@ -166,7 +166,7 @@ focus_tree = {
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = neutrality
-				size = 0.4
+				size = 0.35
 				capital = 38
 				states = {
 					29 36 38 40

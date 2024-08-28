@@ -90,4 +90,22 @@ ideas = {
 			}
 		}
 	}
+	
+	industrial_concern = {
+		MAH_durga_software = {
+			picture = GFX_idea_MAH_durga_software
+
+			allowed = {
+				original_tag = MAH
+			}
+
+			cost = 150
+
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+	}
 }
