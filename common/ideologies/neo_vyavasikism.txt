@@ -1,14 +1,13 @@
 ideologies = {
-    neo_vyavasikism = {  # Internal name of the ideology
-
+    neo_vyavasikism = {  
         types = {
             neo_vyavasikism_type = {
                 can_be_randomly_selected = no
-                color = { 120 10 10 }  # RGB color for Neo-Vyavasikism, similar to fascism
+                color = { 16 16 16 }  
             }
         }
 
-        color = { 16 16 16 }  # Main color for Neo-Vyavasikism in the political pie chart
+        color = { 16 16 16 }  
 
         rules = {
             can_create_collaboration_government = yes
@@ -45,6 +44,6 @@ ideologies = {
             faction_trade_opinion_factor = 0.5
         }
 
-        ai_fascism = yes  # Follows the AI behavior of fascism
+        ai_fascism = yes  
     }
 }
