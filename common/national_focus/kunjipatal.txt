@@ -385,6 +385,7 @@
 			    modifier = KUN_allience_modifier 
 			}
 		}
+		mutually_exclusive = { focus = KUN_the_mighty_mahanta }
 	}
 
 	#A Helicopter Airforce
@@ -740,7 +741,7 @@
 	#The Mighty Mahanta
 	focus = {
 		id = KUN_the_mighty_mahanta
-		icon = GFX_goal_unknown
+		icon = GFX_KUN_the_mighty_mahanta
 		x = 4
 		y = 5
 		cost = 5
@@ -753,10 +754,8 @@
 			    target = MAH
 			    modifier = KUN_allience_modifier 
 			}
-			
-			
-			
 		}
+		mutually_exclusive = { focus = KUN_go_with_radesh }
 	}
 
 	#Secure new funding
