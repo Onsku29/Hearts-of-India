@@ -8,7 +8,7 @@ ideologies = {
             }
         }
 
-        color = { 120 10 10 }  # Main color for Neo-Vyavasikism in the political pie chart
+        color = { 16 16 16 }  # Main color for Neo-Vyavasikism in the political pie chart
 
         rules = {
             can_create_collaboration_government = yes
