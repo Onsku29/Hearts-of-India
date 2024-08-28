@@ -137,8 +137,8 @@ focus_tree = {
 		prerequisite = { focus = MAH_divided_leadership }
 		completion_reward = {
 			start_civil_war = {
-				ruling_party = neutrality
-				ideology = fascism
+				ruling_party = fascism
+				ideology = neo_vyavasikism
 				size = 0.35
 				capital = 64
 				states = {
@@ -164,8 +164,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = neo_vyavasikism
+				ideology = fascism
 				size = 0.35
 				capital = 38
 				states = {

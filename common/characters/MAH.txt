@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = despotism
+            ideology = nazism
             traits = {
                 dictator
             }
@@ -21,7 +21,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = nazism
+            ideology = neo_vyavasikism_type
             traits = {
                 
             }
