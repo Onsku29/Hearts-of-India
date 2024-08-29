@@ -1,7 +1,6 @@
 characters = {
     DAT_abhescock_chopra = {
         name = "Abhescock Chopra"
-
         portraits = {
             army = {
                 large = gfx//leaders//DAT//portrait_DAT_abhescock_chopra.dds
