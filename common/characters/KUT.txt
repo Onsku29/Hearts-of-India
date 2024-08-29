@@ -1,0 +1,16 @@
+characters = {
+    KUT_mukut_ginjupalli = {
+        name = "Mukut Ginjupalli"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//KUT//portrait_KUT_mukut_ginjupalli.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {
+                
+            }
+        }
+    }
+}

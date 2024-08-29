@@ -21,13 +21,5 @@ capital = 8
 		neutrality = 2
 	}
 	
-	create_country_leader = {
-		name = "Delhi Council"
-		desc = ""
-		picture = "gfx//leaders//FEZ//portrait_FEZ_delhi_council.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = FEZ_delhi_council
 }

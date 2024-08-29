@@ -22,15 +22,7 @@ capital = 65
 		neutrality = 3
 	}
 	
-	create_country_leader = {
-		name = "Wai Phone"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = KWA_wai_phone
 
 	create_faction = "South Asian Cooperative Alliance"
 	add_to_faction = KWA

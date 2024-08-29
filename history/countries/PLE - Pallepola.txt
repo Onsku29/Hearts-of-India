@@ -21,13 +21,5 @@ capital = 45
 		neutrality = 80
 	}
 	oob="PLE"
-	create_country_leader = {
-		name = "Rmadurapperuma Rajapaska"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = PLE_rmadurapperuma_rajapaska
 }

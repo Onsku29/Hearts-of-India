@@ -21,13 +21,5 @@ capital = 48
 		neutrality = 80
 	}
 	
-	create_country_leader = {
-		name = "Abdut Tawwab al-Jabbar"
-		desc = ""
-		picture = "gfx//leaders//KUN//portrait_KUN_karam_kusari.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = KAK_abdut_tawwab_al_jabbar
 }

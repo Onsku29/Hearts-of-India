@@ -1,0 +1,16 @@
+characters = {
+    SAS_pannathorn_sasiprapa = {
+        name = "Pannathorn Sasiprapa"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            traits = {
+                
+            }
+        }
+    }
+}

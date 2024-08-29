@@ -1,0 +1,16 @@
+characters = {
+    DHU_khetsun_dhundup = {
+        name = "Khetsun Dhundup"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//DHU//portrait_DHU_khetsun_dhundup.dds"
+            }
+        }
+        country_leader = {
+            ideology = stalinism
+            traits = {
+                
+            }
+        }
+    }
+}

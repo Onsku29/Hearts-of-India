@@ -22,13 +22,5 @@ capital = 10
 		neutrality = 10
 	}
 
-	create_country_leader = {
-		name = "Borakan Kharal"
-		desc = ""
-		picture = "gfx//leaders//BHA//portrait_BHA_borakan_kharal.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = BHA_borakan_kharal
 }

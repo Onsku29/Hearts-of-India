@@ -1,0 +1,16 @@
+characters = {
+    BIS_mahadaji_banahatti = {
+        name = "Mahadaji Banahatti"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//BIS//portrait_BIS_mahadaji_banahatti.dds"
+            }
+        }
+        country_leader = {
+            ideology = stalinism
+            traits = {
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+characters = {
+    BHA_borakan_kharal = {
+		name = "Borakan Kharal"
+		portraits = {
+            civilian = {
+                large = "gfx//leaders//BHA//portrait_BHA_borakan_kharal.dds"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+		    traits = {
+			    
+		    }
+        }
+	}
+}

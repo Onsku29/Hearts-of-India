@@ -36,9 +36,11 @@ characters = {
                 large = "gfx//leaders//DAT//portrait_DAT_radesh_deshmukh.dds"
             }
         }
-		ideology = nazism
-		traits = {
-			popular_figurehead
-		}
+        country_leader = {
+            ideology = nazism
+            traits = {
+			    popular_figurehead
+		    }
+        }
 	}
 }

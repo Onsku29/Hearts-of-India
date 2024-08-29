@@ -112,9 +112,9 @@ capital = 38
 	
 	set_politics = {
 		ruling_party = fascism
-		last_election = "2021.1.1"
+		last_election = "2002.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	
 	set_popularities = {

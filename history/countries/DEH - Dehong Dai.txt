@@ -9,7 +9,7 @@ capital = 63
 	
 	set_politics = {
 		ruling_party = communism
-		last_election = "2021.1.1"
+		last_election = "2010.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -21,13 +21,5 @@ capital = 63
 		neutrality = 0
 	}
 	
-	create_country_leader = {
-		name = "Ding Xing"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = stalinism
-		traits = {
-			#
-		}
-	}
+	recruit_character = DEH_ding_xing
 }

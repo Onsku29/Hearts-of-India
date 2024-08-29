@@ -21,13 +21,5 @@ capital = 30
 		neutrality = 6
 	}
 	set_oob="SAS"
-	create_country_leader = {
-		name = "Pannathorn Sasiprapa"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = SAS_pannathorn_sasiprapa
 }

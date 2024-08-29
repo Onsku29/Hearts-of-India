@@ -21,13 +21,5 @@ capital = 37
 		neutrality = 80
 	}
 	
-	create_country_leader = {
-		name = "Kabalikrut Pattar"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = BON_kabalikrut_pattar
 }

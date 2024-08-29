@@ -9,9 +9,9 @@ capital = 58
 
 	set_politics = {
 		ruling_party = communism
-		last_election = "2021.1.1"
+		last_election = "2018.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 	set_popularities = {
@@ -21,15 +21,7 @@ capital = 58
 		neutrality = 5
 	}
 
-	create_country_leader = {
-		name = "Mahadaji Banahatti"
-		desc = ""
-		picture = "gfx//leaders//BIS//portrait_BIS_mahadaji_banahatti.dds"
-		ideology = stalinism
-		traits = {
-			#
-		}
-	}
+	recruit_character = BIS_mahadaji_banahatti
 
 	create_faction = "Colintern"
 	add_to_faction = BIS
