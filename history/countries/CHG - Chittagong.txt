@@ -21,13 +21,5 @@ capital = 12
 		neutrality = 10
 	}
 	
-	create_country_leader = {
-		name = "Kusika Bajpeyi"
-		desc = ""
-		picture = "gfx//leaders//CHG//portrait_CHG_kusika_bajpeyi.dds"
-		ideology = nazism
-		traits = {
-			#
-		}
-	}
+	recruit_character = CHG_kusika_bajpeyi
 }

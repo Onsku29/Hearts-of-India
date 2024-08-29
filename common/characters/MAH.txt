@@ -23,7 +23,7 @@ characters = {
         country_leader = {
             ideology = neo_vyavasikism_type
             traits = {
-                
+                dictator
             }
         }
     }
