@@ -15,10 +15,11 @@ capital = 31
 	}
 	
 	set_popularities = {
-		democratic = 10
-		fascism = 5
+		democratic = 9
+		fascism = 6
 		communism = 5
-		neutrality = 80
+		neutrality = 76
+		neo_vyavasikism = 4
 	}
 	
 	recruit_character = KUT_mukut_ginjupalli

@@ -13,7 +13,7 @@ focus_tree = {
 		id = MAH_construct_new_infastructure
 		icon = GFX_MAH_construct_new_infastructure-645938
 		x = 3
-		y = 6
+		y = 7
 		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -69,7 +69,7 @@ focus_tree = {
 		id = MAH_mobilize_the_mahant_people
 		icon = GFX_focus_generic_manpower
 		x = 5
-		y = 6
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -123,7 +123,7 @@ focus_tree = {
 	focus = {
 		id = MAH_side_with_abhinav
 		icon = MAH_side_with_abhinav
-		x = 3
+		x = 2
 		y = 2
 		cost = 10
 		search_filters = {
@@ -151,7 +151,7 @@ focus_tree = {
 	focus = {
 		id = MAH_side_with_chettur
 		icon = MAH_side_with_chettur
-		x = 5
+		x = 6
 		y = 2
 		cost = 10
 		search_filters = {
@@ -194,13 +194,63 @@ focus_tree = {
 		ai_will_do = {factor = 100}
 		prerequisite = {focus = MAH_side_with_chettur}
 	}
+	focus = {
+		id = MAH_exile_chettur
+		icon = GFX_MAH_exile_chettur
+		x = 1
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_flag = won_ideology_civil_war
+		}
+		completion_reward = {
+			add_stability = 0.10
+		}
+		ai_will_do = {factor = 50}
+		prerequisite = {focus = MAH_side_with_abhinav}
+		mutually_exclusive = {focus = MAH_keep_chettur}
+	}
+	focus = {
+		id = MAH_keep_chettur
+		icon = GFX_MAH_keep_chettur
+		x = 3
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			has_country_flag = won_ideology_civil_war
+		}
+		completion_reward = {
+			create_field_marshal = {
+				name = "Chettur Bhave"
+				picture = portrait_MAH_chettur_bhave
+				traits = {
+                	brilliant_strategist
+                	politically_connected
+            	}
+            	skill = 6
+            	attack_skill = 6
+            	defense_skill = 4
+            	planning_skill = 5
+            	logistics_skill = 6
+        	}
+		}
+		ai_will_do = {factor = 50}
+		prerequisite = {focus = MAH_side_with_abhinav}
+		mutually_exclusive = {focus = MAH_exile_chettur}
+	}
 
 	#Move the Mighty Economy in to a Mighty gear
 	focus = {
 		id = MAH_move_the_mighty_economy_in_to_a_mighty_gear
 		icon = GFX_goal_continuous_non_factory_construct
 		x = 4
-		y = 5
+		y = 6
 		cost = 3
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -248,7 +298,7 @@ focus_tree = {
 		id = MAH_root_out_corruption_in_the_government
 		icon = GFX_MAH_root_out_corruption_in_the_government-645454
 		x = 4
-		y = 3
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -266,7 +316,7 @@ focus_tree = {
 		id = MAH_remove_corruption_from_the_army
 		icon = GFX_MAH_remove_corruption_from_the_army-262098
 		x = 4
-		y = 4
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -352,7 +402,7 @@ focus_tree = {
 		id = MAH_expand_the_air_wing_of_the_malsf
 		icon = GFX_MAH_expand_the_air_wing_of_the_malsf-645948
 		x = 2
-		y = 5
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_RESEARCH

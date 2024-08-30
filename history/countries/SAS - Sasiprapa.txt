@@ -18,7 +18,8 @@ capital = 30
 		democratic = 89
 		fascism = 1
 		communism = 4
-		neutrality = 6
+		neutrality = 5
+		neo_vyavasikism = 1
 	}
 	set_oob="SAS"
 	recruit_character = SAS_pannathorn_sasiprapa

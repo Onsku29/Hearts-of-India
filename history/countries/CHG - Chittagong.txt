@@ -15,10 +15,11 @@ capital = 12
 	}
 	
 	set_popularities = {
-		democratic = 5
-		fascism = 80
-		communism = 5
-		neutrality = 10
+		democratic = 1
+		fascism = 90
+		communism = 1
+		neutrality = 2
+		neo_vyavasikism = 6
 	}
 	
 	recruit_character = CHG_kusika_bajpeyi

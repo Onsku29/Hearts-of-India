@@ -19,6 +19,7 @@ capital = 8
 		fascism = 1
 		communism = 2
 		neutrality = 2
+		neo_vyavasikism = 0
 	}
 	
 	recruit_character = FEZ_delhi_council

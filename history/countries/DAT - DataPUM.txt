@@ -33,10 +33,11 @@ capital = 26
 	}
 
 	set_popularities = {
-		democratic = 5
+		democratic = 6
 		fascism = 80
-		communism = 5
-		neutrality = 10
+		communism = 1
+		neutrality = 9
+		neo_vyavasikism = 4
 	}
 
 	create_faction = "Mumbai Alliance"

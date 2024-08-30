@@ -15,10 +15,11 @@ capital = 48
 	}
 	
 	set_popularities = {
-		democratic = 10
+		democratic = 8
 		fascism = 5
 		communism = 5
-		neutrality = 80
+		neutrality = 81
+		neo_vyavasikism = 1
 	}
 	
 	recruit_character = KAK_abdut_tawwab_al_jabbar

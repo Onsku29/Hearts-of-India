@@ -19,7 +19,8 @@ capital = 65
 		democratic = 95
 		fascism = 1
 		communism = 1
-		neutrality = 3
+		neutrality = 2
+		neo_vyavasikism = 1
 	}
 	
 	recruit_character = KWA_wai_phone

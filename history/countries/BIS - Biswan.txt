@@ -15,10 +15,11 @@ capital = 58
 	}
 
 	set_popularities = {
-		democratic = 10
-		fascism = 5
-		communism = 80
-		neutrality = 5
+		democratic = 1
+		fascism = 0
+		communism = 97
+		neutrality = 2
+		neo_vyavasikism = 0
 	}
 
 	recruit_character = BIS_mahadaji_banahatti
