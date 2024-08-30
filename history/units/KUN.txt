@@ -20,3 +20,186 @@ division_template = {
         artillery = { x = 0 y = 1 }
 	}
 }
+units = {
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 798
+		division_template = "Kusari-Guards"
+		start_experience_factor = 0.3
+	}	
+}
