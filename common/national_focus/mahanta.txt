@@ -228,7 +228,7 @@ focus_tree = {
 		completion_reward = {
 			create_field_marshal = {
 				name = "Chettur Bhave"
-				picture = portrait_MAH_chettur_bhave
+				gfx = portrait_MAH_chettur_bhave
 				traits = {
                 	brilliant_strategist
                 	politically_connected
