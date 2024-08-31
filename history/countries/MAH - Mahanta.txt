@@ -111,10 +111,10 @@ capital = 38
 	set_convoys = 20
 	
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "2021.1.1"
+		ruling_party = fascism
+		last_election = "2002.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	
 	set_popularities = {
@@ -122,7 +122,7 @@ capital = 38
 		fascism = 44
 		communism = 5
 		neutrality = 5
-		neo_vyavasikism = 41  # Neo-Vyavasikism popularity set to 41%
+		neo_vyavasikism = 41
 	}
 	
 	recruit_character = MAH_abhinav_mahanta

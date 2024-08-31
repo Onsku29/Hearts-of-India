@@ -15,19 +15,12 @@ capital = 31
 	}
 	
 	set_popularities = {
-		democratic = 10
-		fascism = 5
+		democratic = 9
+		fascism = 6
 		communism = 5
-		neutrality = 80
+		neutrality = 76
+		neo_vyavasikism = 4
 	}
 	
-	create_country_leader = {
-		name = "Mukut Ginjupalli"
-		desc = ""
-		picture = "gfx//leaders//KUT//portrait_KUT_mukut_ginjupalli.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = KUT_mukut_ginjupalli
 }

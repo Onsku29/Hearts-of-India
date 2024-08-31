@@ -1,0 +1,16 @@
+characters = {
+    FEZ_delhi_council = {
+        name = "Delhi Council"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//FEZ//portrait_FEZ_delhi_council.dds"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            traits = {
+                popular_figurehead
+            }
+        }
+    }
+}

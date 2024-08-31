@@ -1,0 +1,16 @@
+characters = {
+    KAK_abdut_tawwab_al_jabbar = {
+        name = "Abdut Tawwab al-Jabbar"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//KUN//portrait_KUN_karam_kusari.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {
+                
+            }
+        }
+    }
+}

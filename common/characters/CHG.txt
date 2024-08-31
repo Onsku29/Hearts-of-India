@@ -1,0 +1,16 @@
+characters = {
+    CHG_kusika_bajpeyi = {
+        name = "Kusika Bajpeyi"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CHG/portrait_CHG_kusika_bajpeyi.dds"
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            traits = {
+                empire_builder
+            }
+        }
+    }
+}

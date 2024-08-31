@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = despotism
+            ideology = nazism
             traits = {
                 dictator
             }
@@ -19,11 +19,15 @@ characters = {
             civilian = {
                 large="gfx/leaders/MAH/portrait_MAH_chettur_bhave.dds"
             }
+            army = {
+                large="gfx/leaders/MAH/portrait_MAH_chettur_bhave.dds"
+                small="gfx/leaders/MAH/portrait_MAH_chettur_bhave_small.dds"
+            }
         }
         country_leader = {
-            ideology = nazism
+            ideology = neo_vyavasikism_type
             traits = {
-                
+                dictator
             }
         }
     }

@@ -19,15 +19,8 @@ capital = 8
 		fascism = 1
 		communism = 2
 		neutrality = 2
+		neo_vyavasikism = 0
 	}
 	
-	create_country_leader = {
-		name = "Delhi Council"
-		desc = ""
-		picture = "gfx//leaders//FEZ//portrait_FEZ_delhi_council.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = FEZ_delhi_council
 }

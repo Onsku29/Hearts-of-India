@@ -1,0 +1,16 @@
+characters = {
+    BON_kabalikrut_pattar = {
+        name = "Kabalikrut Pattar"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {
+                
+            }
+        }
+    }
+}

@@ -16,19 +16,12 @@ capital = 10
 	}
 
 	set_popularities = {
-		democratic = 80
-		fascism = 5
-		communism = 5
-		neutrality = 10
+		democratic = 90
+		fascism = 1
+		communism = 3
+		neutrality = 5
+		neo_vyavasikism = 1
 	}
 
-	create_country_leader = {
-		name = "Borakan Kharal"
-		desc = ""
-		picture = "gfx//leaders//BHA//portrait_BHA_borakan_kharal.dds"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
+	recruit_character = BHA_borakan_kharal
 }

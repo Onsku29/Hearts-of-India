@@ -15,19 +15,12 @@ capital = 45
 	}
 	
 	set_popularities = {
-		democratic = 10
-		fascism = 5
-		communism = 5
-		neutrality = 80
+		democratic = 6
+		fascism = 6
+		communism = 4
+		neutrality = 82
+		neo_vyavasikism = 2
 	}
 	oob="PLE"
-	create_country_leader = {
-		name = "Rmadurapperuma Rajapaska"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = PLE_rmadurapperuma_rajapaska
 }

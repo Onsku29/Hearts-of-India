@@ -1,7 +1,6 @@
 characters = {
     DAT_abhescock_chopra = {
         name = "Abhescock Chopra"
-
         portraits = {
             army = {
                 large = gfx//leaders//DAT//portrait_DAT_abhescock_chopra.dds
@@ -30,5 +29,18 @@ characters = {
             cost = 200
         }
     }
+    DAT_radesh_deshmukh = {
+		name = "Radesh Deshmukh"
+		portraits = {
+            civilian = {
+                large = "gfx//leaders//DAT//portrait_DAT_radesh_deshmukh.dds"
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            traits = {
+			    popular_figurehead
+		    }
+        }
+	}
 }
-

@@ -9,7 +9,7 @@ capital = 53
 
 	set_politics = {
 		ruling_party = communism
-		last_election = "2021.1.1"
+		last_election = "2005.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
@@ -21,13 +21,5 @@ capital = 53
 		neutrality = 0
 	}
 
-	create_country_leader = {
-		name = "Khetsun Dhundup"
-		desc = ""
-		picture = "gfx//leaders//DHU//portrait_DHU_khetsun_dhundup.dds"
-		ideology = stalinism
-		traits = {
-			#
-		}
-	}
+	recruit_character = DHU_khetsun_dhundup
 }

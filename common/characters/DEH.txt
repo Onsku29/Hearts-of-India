@@ -1,0 +1,16 @@
+characters = {
+    DEH_ding_xing = {
+        name = "Ding Xing"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+            }
+        }
+        country_leader = {
+            ideology = stalinism
+            traits = {
+                communist_politician
+            }
+        }
+    }
+}

@@ -18,10 +18,11 @@ capital = 14
 	}
 	
 	set_popularities = {
-		democratic = 20
-		fascism = 25
+		democratic = 10
+		fascism = 21
 		communism = 5
-		neutrality = 50
+		neutrality = 55
+		neo_vyavasikism = 9
 	}
 	
 	create_country_leader = {

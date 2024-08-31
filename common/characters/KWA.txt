@@ -1,0 +1,16 @@
+characters = {
+    KWA_wai_phone = {
+        name = "Wai Phone"
+        portraits = {
+            civilian = {
+                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            traits = {
+                
+            }
+        }
+    }
+}

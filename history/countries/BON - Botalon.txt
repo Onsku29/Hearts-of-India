@@ -15,19 +15,12 @@ capital = 37
 	}
 	
 	set_popularities = {
-		democratic = 10
-		fascism = 5
+		democratic = 5
+		fascism = 14
 		communism = 5
-		neutrality = 80
+		neutrality = 70
+		neo_vyavasikism = 6
 	}
 	
-	create_country_leader = {
-		name = "Kabalikrut Pattar"
-		desc = ""
-		picture = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
+	recruit_character = BON_kabalikrut_pattar
 }
