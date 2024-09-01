@@ -9,7 +9,12 @@
 # trade = yes/no
 
 opinion_modifiers = {
+	#HEARTS OF INDIA
+	DAT_say_no_to_mahanta = {
+		value = -80
+	}
 
+	#VANILLA
 	cheat_opinion_modifier_good = {
 		value = 200
 	}

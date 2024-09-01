@@ -40,6 +40,10 @@ capital = 26
 		neo_vyavasikism = 4
 	}
 
+	add_ideas = {
+		DAT_say_no_to_mahanta
+	}
+
 	create_faction = "Mumbai Alliance"
 	add_to_faction = DAT
 	add_to_faction = BON

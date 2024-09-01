@@ -468,7 +468,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "EventWindow_News"
-		position = { x=-282 y=-310 }	
+		position = { x=-282 y=-370 }	
 		size = { width = 551 height = 762 }
 		moveable = yes
 		Orientation = CENTER

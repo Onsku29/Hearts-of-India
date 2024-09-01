@@ -1,0 +1,13 @@
+ideas = {
+    country = {
+        DAT_say_no_to_mahanta = {
+            picture = GFX_idea_DAT_say_no_to_mahanta
+            targeted_modifier = {
+                tag = MAH
+                defense_bonus_against = 0.1
+                trade_cost_for_target_factor = 2
+                generate_wargoal_tension_against = -0.5
+            }
+        }
+    }
+}
