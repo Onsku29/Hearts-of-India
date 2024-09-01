@@ -1,0 +1,40 @@
+bitmapfonts = {
+	### HEARTS OF INDIA
+
+	bitmapfont = {
+		name = "verdana_20"
+		path = "gfx/fonts/verdana_20"
+		color = "0xff000000"
+	}
+	bitmapfont = {
+		name = "verdana_20_white"
+		path = "gfx/fonts/verdana_20"
+		color = "0xffffffff"
+	}
+	bitmapfont = {
+		name = "verdana_12"
+		path = "gfx/fonts/verdana_12"
+		color = "0xff000000"
+	}
+	bitmapfont = {
+		name = "verdana_12_white"
+		path = "gfx/fonts/verdana_12"
+		color = "0xffffffff"
+	}
+
+	### VANILLA
+
+	#Small debug font
+
+	bitmapfont = {
+		name = "garamond_12"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "cw_3d_debug"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+}
