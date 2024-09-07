@@ -493,23 +493,15 @@ guiTypes = {
 				position = { x = 78 y = 155 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-			}
-			
-			iconType = {
-				name ="event_picture_overlay"
-				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 78 y = 155 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}			
+			}		
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 25 y = 320 }
-				font = "verdana_20"
+				position = { x = 63 y = 320 }
+				font = "timesnewroman_20"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
-				maxWidth = 490
+				maxWidth = 425
 				maxHeight = 32
 				format = centre
 			}
@@ -530,7 +522,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 39 y = 170 }
+				position = { x = 80 y = 190 }
 				font = "verdana_12"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	

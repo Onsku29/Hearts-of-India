@@ -1,0 +1,38 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = heartsofindia_news
+
+news_event = {
+	id = heartsofindia_news.1
+	title = "JAI RADESH!"
+	desc = test
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "JAI DATAPUM"
+	}
+}
+
+news_event = {
+	id = heartsofindia_news.2
+	title = "DATAPUM AND KUNJIPATAL HOLD CONFERENCE IN MUMBAI"
+	desc = "jai"
+	picture = GFX_DAT_KUN_meeting
+	major = yesö
+	trigger = {
+		date > 2025.2.22
+		date < 2025.2.24
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "yooo"
+	}
+}

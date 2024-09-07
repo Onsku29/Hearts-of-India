@@ -1,0 +1,7 @@
+spriteTypes = {
+	#HEARTS OF industrial_complex
+	spriteType = {
+		name = "GFX_DAT_KUN_meeting"
+		texturefile = "gfx/event_pictures/news_event_dat_kun_meeting.dds"
+	}
+}

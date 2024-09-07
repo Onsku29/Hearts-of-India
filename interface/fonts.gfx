@@ -21,6 +21,16 @@ bitmapfonts = {
 		path = "gfx/fonts/verdana_12"
 		color = "0xffffffff"
 	}
+	bitmapfont = {
+		name = "timesnewroman_20"
+		path = "gfx/fonts/tnr_20"
+		color = "0xff000000"
+	}
+	bitmapfont = {
+		name = "timesnewroman_20_white"
+		path = "gfx/fonts/tnr_20"
+		color = "0xffffffff"
+	}
 
 	### VANILLA
 
