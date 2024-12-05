@@ -91,7 +91,6 @@ music = {
 		}
 	}
 }
-
 music = {
 	song = "the_war_ends"
 	chance = {
@@ -99,6 +98,15 @@ music = {
 		modifier = {
 			factor = 100
 			has_war = no
+		}
+	}
+}
+music = {
+	song = "dholi_taro_dhol_baaje"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 100
 		}
 	}
 }

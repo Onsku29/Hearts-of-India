@@ -49,3 +49,8 @@ music = {
 	file = "the_war_ends.ogg"
 	volume = 4.0
 }
+music = {
+	name = "dholi_taro_dhol_baaje"
+	file = "dholi_taro_dhol_baaje.ogg"
+	volume = 1.5
+}
