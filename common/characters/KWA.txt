@@ -3,7 +3,7 @@ characters = {
         name = "Wai Phone"
         portraits = {
             civilian = {
-                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+                large = "gfx//leaders//KWA//portrait_KWA_wai_phone.dds"
             }
         }
         country_leader = {

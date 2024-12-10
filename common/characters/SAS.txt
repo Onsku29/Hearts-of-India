@@ -3,7 +3,7 @@ characters = {
         name = "Pannathorn Sasiprapa"
         portraits = {
             civilian = {
-                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+                large = "gfx//leaders//SAS//portrait_SAS_pannathorn_sasiprapa.dds"
             }
         }
         country_leader = {
