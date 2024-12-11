@@ -1,0 +1,27 @@
+MAH_bograsteel_organization = {
+    include = generic_general_aircraft_organization
+    icon = GFX_idea_MAH_bograsteel
+    allowed = {
+        original_tag = MAH
+    }
+
+    tree_header_text = {
+		text = mio_header_fighter_aircraft
+		x = 1
+	}
+
+	tree_header_text = {
+		text = mio_header_bomber_aircraft
+		x = 4
+	}
+
+	tree_header_text = {
+		text = mio_header_naval_aircraft
+		x = 7
+	}
+
+	tree_header_text = {
+		text = mio_header_production
+		x = 9
+	}
+}

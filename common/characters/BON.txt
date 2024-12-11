@@ -3,7 +3,7 @@ characters = {
         name = "Kabalikrut Pattar"
         portraits = {
             civilian = {
-                large = "gfx//leaders//BON//portrait_PLE_kabalikrut_pattar.dds"
+                large = "gfx//leaders//BON//portrait_BON_kabalikrut_pattar.dds"
             }
         }
         country_leader = {

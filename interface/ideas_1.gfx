@@ -4,6 +4,10 @@ spriteTypes = {
         texturefile = gfx/interface/ideas/GFX_idea_MAH_durga_software.dds
     }
     spriteType = {
+        name = GFX_idea_MAH_bograsteel
+        texturefile = gfx/interface/ideas/GFX_idea_MAH_bograsteel.dds
+    }
+    spriteType = {
         name = GFX_idea_DAT_say_no_to_mahanta
         texturefile = gfx/interface/ideas/GFX_idea_DAT_say_no_to_mahanta.dds
     }
