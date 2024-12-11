@@ -3,7 +3,7 @@ characters = {
         name = "Abdut Tawwab al-Jabbar"
         portraits = {
             civilian = {
-                large = "gfx//leaders//KUN//portrait_KUN_karam_kusari.dds"
+                large = "gfx//leaders//KAK//portrait_KAK_abdut_tawwab_al_jabbar.dds"
             }
         }
         country_leader = {

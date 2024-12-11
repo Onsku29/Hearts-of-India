@@ -3,7 +3,7 @@ characters = {
         name = "Ding Xing"
         portraits = {
             civilian = {
-                large = "gfx//leaders//PLE//portrait_PLE_rmadurapperuma-rajapaska.dds"
+                large = "gfx//leaders//DEH//portrait_DEH_ding_xing.dds"
             }
         }
         country_leader = {
