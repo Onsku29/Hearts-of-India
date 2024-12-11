@@ -1,0 +1,22 @@
+default = {
+	male = {
+		names = { "Prakash" "Aryabhatta" "Ravi" "Rohit" "Manish" "Rajesh" "Abhi" "Vineet" "Vinayak" "Nakula"}
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { "Gharapure" "Parikh" "Devdhar" "Divekar" "Dattachaudhuri" "Padhya" "Mirchandani" "Harish" "Sharma" "Deshmukh" }
+	callsigns = { "Rice and Curry" "Masala" "Bol Bachchan" "Turbo Turban" "Pataka" "Biryani" "Dhokla" "Jugaad" "Samosa" "Paneer"}
+
+
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+
+	operation = {
+		0 = { o_default_operation }
+	}
+
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+}

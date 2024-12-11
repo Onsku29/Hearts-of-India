@@ -1,0 +1,15 @@
+DAT_INF_01 = {
+    name = "Inphaintree Diveejan"
+    for_countries = {DAT}
+    can_use = {always = yes}
+    division_types = {"infantry"}
+    fallback_name = "%d. Inphaintree Diveejan"
+    ordered = {
+        1 = {"%d. 'Radeshian Bodyguards' Inphaintree Diveejan"}
+        4 = {"%d. 'Aurangabad Protectors' Inphaintree Diveejan"}
+        7 = {"%d. 'Tactical Civilians' Inphaintree Diveejan"}
+        8 = {"%d. 'Human Wall' Inphaintree Diveejan"}
+        14 = {"%d. 'Human Choppers' Inphaintree Diveejan"}
+        22 = {"%d. 'Signal Corps' Inphaintree Diveejan"}
+    }
+}
