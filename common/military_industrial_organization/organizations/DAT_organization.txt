@@ -1,0 +1,22 @@
+DAT_rac_organization = {
+    include = generic_infantry_tank_organization
+    icon = GFX_idea_DAT_rac
+    allowed = {
+        original_tag = DAT
+    }
+
+    tree_header_text = {
+		text = mio_header_light_tank_department
+		x = 0.1
+	}
+
+	tree_header_text = {
+		text = mio_header_medium_tank_department
+		x = 4
+	}
+
+	tree_header_text = {
+		text = mio_header_production_department
+		x = 8.5
+	}
+}
